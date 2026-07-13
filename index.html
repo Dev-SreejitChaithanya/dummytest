@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Amaizing Taste — Kerala's premium artisan food store. Spices, pickles, sun-dried delicacies, banana chips and luxury hampers, direct from the heartland of God's Own Country." />
+  <meta name="theme-color" content="#0B1A13" />
+  <title>Amaizing Taste — Kerala's Finest Artisan Store</title>
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css?v=4.1" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       HEADER
+  ═══════════════════════════════════════════════════════════ -->
+  <header id="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+
+        <a href="#" class="logo" onclick="closeCollection(); return false;" aria-label="Amaizing Taste Home">
+          <span class="logo-mark">Amaizing Taste</span>
+          <span class="logo-sub">Kerala Artisan Store · Est. 2020</span>
+        </a>
+
+        <div class="header-actions">
+          <!-- WhatsApp -->
+          <a href="https://wa.me/918078020806" target="_blank" rel="noopener" class="btn-icon" aria-label="WhatsApp us" title="Chat on WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.549 4.1 1.514 5.82L0 24l6.335-1.686C8.01 23.45 9.962 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.818 0-3.532-.47-5.026-1.294l-.36-.213-3.76 1.001 1.006-3.656-.234-.375A9.95 9.95 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          </a>
+
+          <!-- Phone -->
+          <a href="tel:+918078020806" class="btn-icon" aria-label="Call us" title="Call us">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          </a>
+
+          <!-- Cart -->
+          <button class="btn-icon" id="cart-btn" onclick="openCart()" aria-label="Open shopping cart">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+            <span class="cart-count" aria-live="polite">0</span>
+          </button>
+
+          <!-- Hamburger (mobile) -->
+          <button class="hamburger" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Promotional Ticker -->
+  <div id="promo-ticker" aria-label="Promotional offers">
+    <div class="ticker-track">
+      <span>🌿 Free delivery on orders above ₹999</span>
+      <span>✦</span>
+      <span>🎁 Luxury Gift Hampers — perfect for every occasion</span>
+      <span>✦</span>
+      <span>🌶 New Arrivals: Tellicherry Black Pepper &amp; Green Cardamom 8mm+</span>
+      <span>✦</span>
+      <span>☀️ Sun-Dried Jackfruit back in stock — limited batch</span>
+      <span>✦</span>
+      <span>🥥 Cold Pressed Coconut Oil — farm-direct from Thrissur</span>
+      <span>✦</span>
+      <span>📦 Order via WhatsApp: 8078020806</span>
+      <span>✦</span>
+      <span>🌿 Free delivery on orders above ₹999</span>
+      <span>✦</span>
+      <span>🎁 Luxury Gift Hampers — perfect for every occasion</span>
+      <span>✦</span>
+      <span>🌶 New Arrivals: Tellicherry Black Pepper &amp; Green Cardamom 8mm+</span>
+      <span>✦</span>
+      <span>☀️ Sun-Dried Jackfruit back in stock — limited batch</span>
+      <span>✦</span>
+      <span>🥥 Cold Pressed Coconut Oil — farm-direct from Thrissur</span>
+      <span>✦</span>
+      <span>📦 Order via WhatsApp: 8078020806</span>
+      <span>✦</span>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <nav id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <button class="cart-close" onclick="toggleMobileMenu()" style="align-self:flex-end; margin-bottom:1rem;">✕</button>
+    <a href="tel:+918078020806" class="contact-chip" onclick="toggleMobileMenu()">📞 +91 80780 20806</a>
+    <a href="https://wa.me/918078020806" target="_blank" rel="noopener" class="contact-chip" onclick="toggleMobileMenu()">💬 WhatsApp</a>
+    <button class="btn-primary" onclick="openEnquiryModal(); toggleMobileMenu()">Send Enquiry</button>
+  </nav>
+
+  <!-- Cart Overlay (backdrop) -->
+  <div id="cart-overlay" aria-hidden="true"></div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       HOME VIEW
+  ═══════════════════════════════════════════════════════════ -->
+  <div id="home-view">
+
+    <!-- HERO -->
+    <section id="hero" aria-label="Hero banner">
+      <div class="hero-bg">
+        <img src="assets/images/v4_hero.png" alt="Kerala artisan produce flat-lay" loading="eager" />
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-label">
+            God's Own Country · Artisan Since 2020
+          </div>
+          <h1 class="hero-title">
+            The Taste of<br>
+            <span>Kerala's Finest</span>
+          </h1>
+          <p class="hero-subtitle">
+            Hand-sourced spices, artisan pickles, sun-dried delicacies and luxury hampers — curated from the plantations, kitchens and craft villages of Kerala.
+          </p>
+          <div class="hero-actions">
+            <button class="btn-primary" onclick="document.getElementById('collections').scrollIntoView({behavior:'smooth'})">
+              Shop Collections
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+            <a href="https://wa.me/918078020806" target="_blank" rel="noopener" class="btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.549 4.1 1.514 5.82L0 24l6.335-1.686C8.01 23.45 9.962 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.818 0-3.532-.47-5.026-1.294l-.36-.213-3.76 1.001 1.006-3.656-.234-.375A9.95 9.95 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">Scroll</div>
+    </section>
+
+    <!-- STATS -->
+    <section id="stats" aria-label="Store statistics">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-num">7+</div>
+            <div class="stat-label">Collections</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">25+</div>
+            <div class="stat-label">Products</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Natural</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">Kerala</div>
+            <div class="stat-label">Origin</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLECTIONS -->
+    <section id="collections" class="section" aria-label="Product collections">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Our Collections</span>
+          <h2 class="section-title">Explore Kerala's Finest</h2>
+          <div class="gold-divider" style="margin-top:1rem;"></div>
+          <p class="section-desc" style="margin-top:1rem;">
+            Each collection is a chapter of Kerala's rich culinary and artisan heritage — handpicked, small-batch, and delivered with care.
+          </p>
+        </div>
+        <div id="collections-grid" role="list" aria-label="Product category grid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section id="story" class="section" aria-label="Our story">
+      <div class="container">
+        <div class="story-inner">
+          <div class="story-image-wrap">
+            <img src="assets/images/v4_hero.png" alt="Kerala spices and produce arranged on dark marble" loading="lazy" />
+          </div>
+          <div class="story-text">
+            <span class="section-label">Our Story</span>
+            <h2 class="section-title" style="text-align:left; margin-bottom:1rem;">
+              Born in the<br>Plantations of Kerala
+            </h2>
+            <div class="gold-divider" style="margin:0 0 1.5rem 0;"></div>
+            <p style="color:var(--clr-text-muted); font-size:0.95rem; line-height:1.8;">
+              Amaizing Taste was founded with a singular vision: to bring the authentic, unadulterated flavours of Kerala to discerning homes across India. From the cardamom hills of Idukki to the coconut groves of Thrissur, every product tells a story of the land, its people, and generations of artisan knowledge.
+            </p>
+            <div class="story-features">
+              <div class="story-feature">
+                <div class="story-feature-icon">🌿</div>
+                <div>
+                  <h4>Farm-Direct Sourcing</h4>
+                  <p>We partner directly with small-hold farmers across Kerala's spice belts — no middlemen, maximum freshness.</p>
+                </div>
+              </div>
+              <div class="story-feature">
+                <div class="story-feature-icon">🫙</div>
+                <div>
+                  <h4>Small-Batch Artisan Production</h4>
+                  <p>Every jar, pouch, and hamper is made in carefully controlled small batches to preserve quality.</p>
+                </div>
+              </div>
+              <div class="story-feature">
+                <div class="story-feature-icon">🎁</div>
+                <div>
+                  <h4>Signature Gift Packaging</h4>
+                  <p>Our luxury gift hampers are hand-packed with gold silk ribbon — perfect for premium gifting.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT BAR -->
+    <section id="contact-bar" aria-label="Contact information">
+      <div class="container">
+        <div class="contact-bar-inner">
+          <a href="tel:+918078020806" class="contact-chip">
+            <span class="contact-chip-icon">📞</span>
+            +91 80780 20806
+          </a>
+          <a href="https://wa.me/918078020806" target="_blank" rel="noopener" class="contact-chip">
+            <span class="contact-chip-icon">💬</span>
+            WhatsApp Order
+          </a>
+          <a href="mailto:info@amazingtaste.com" class="contact-chip">
+            <span class="contact-chip-icon">✉️</span>
+            info@amazingtaste.com
+          </a>
+          <span class="contact-chip">
+            <span class="contact-chip-icon">📍</span>
+            Kochi, Kerala
+          </span>
+          <button class="btn-primary" onclick="openEnquiryModal()" style="font-size:0.82rem; padding:0.6rem 1.4rem;">
+            Send Enquiry
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="site-footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo-mark">Amaizing Taste</span>
+              <span class="logo-sub">Kerala Artisan Store</span>
+            </div>
+            <p>Bringing Kerala's finest artisan produce to your table — curated with passion, packaged with luxury.</p>
+          </div>
+          <div class="footer-col">
+            <h5>Collections</h5>
+            <ul>
+              <li><a href="#" onclick="openCollection('pickles'); return false;">Pickles & Preserves</a></li>
+              <li><a href="#" onclick="openCollection('spices'); return false;">Exotic Spices</a></li>
+              <li><a href="#" onclick="openCollection('sundried'); return false;">Sun-Cured Delicacies</a></li>
+              <li><a href="#" onclick="openCollection('snacks'); return false;">Gourmet Snacks</a></li>
+              <li><a href="#" onclick="openCollection('hampers'); return false;">Luxury Hampers</a></li>
+              <li><a href="#" onclick="openCollection('harvest'); return false;">Fresh Harvest</a></li>
+              <li><a href="#" onclick="openCollection('ecoliving'); return false;">Eco-Luxury Living</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Contact</h5>
+            <ul>
+              <li><a href="tel:+918078020806">+91 80780 20806</a></li>
+              <li><a href="mailto:info@amazingtaste.com">info@amazingtaste.com</a></li>
+              <li><a href="https://wa.me/918078020806" target="_blank" rel="noopener">WhatsApp Us</a></li>
+              <li><a href="#">Kochi, Kerala</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 Amaizing Taste. All rights reserved. Made with 🌿 in Kerala.</p>
+          <p style="font-size:0.7rem; color:var(--clr-text-muted);">God's Own Country</p>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- /#home-view -->
+
+  <!-- ═══════════════════════════════════════════════════════
+       COLLECTION (SUB-PRODUCTS) VIEW  — SPA Route
+  ═══════════════════════════════════════════════════════════ -->
+  <div id="collection-view" role="main">
+
+    <!-- Collection Hero Header -->
+    <section class="collection-hero">
+      <div class="container">
+        <button class="back-btn" onclick="closeCollection()" aria-label="Back to all collections">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          All Collections
+        </button>
+        <div class="collection-hero-content">
+          <div class="collection-hero-icon" id="collection-header-icon">🫙</div>
+          <div class="collection-hero-text">
+            <h2 id="collection-header-name">Collection Name</h2>
+            <p id="collection-header-desc">Collection description</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section id="products-section">
+      <div class="container">
+        <div id="products-grid" role="list" aria-label="Products in this collection">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Back to collections bottom link -->
+    <div class="container" style="padding-bottom:3rem; text-align:center;">
+      <button class="back-btn" onclick="closeCollection()" style="display:inline-flex; justify-content:center; border:1px solid var(--clr-border); padding:0.7rem 1.5rem; border-radius:50px; background:var(--clr-surface);">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Back to All Collections
+      </button>
+    </div>
+
+    <!-- Footer (also shown on collection page) -->
+    <footer id="collection-footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo-mark">Amaizing Taste</span>
+              <span class="logo-sub">Kerala Artisan Store</span>
+            </div>
+            <p>Bringing Kerala's finest artisan produce to your table — curated with passion, packaged with luxury.</p>
+          </div>
+          <div class="footer-col">
+            <h5>Collections</h5>
+            <ul>
+              <li><a href="#" onclick="openCollection('pickles'); return false;">Pickles &amp; Preserves</a></li>
+              <li><a href="#" onclick="openCollection('spices'); return false;">Exotic Spices</a></li>
+              <li><a href="#" onclick="openCollection('sundried'); return false;">Sun-Cured Delicacies</a></li>
+              <li><a href="#" onclick="openCollection('snacks'); return false;">Gourmet Snacks</a></li>
+              <li><a href="#" onclick="openCollection('hampers'); return false;">Luxury Hampers</a></li>
+              <li><a href="#" onclick="openCollection('harvest'); return false;">Fresh Harvest</a></li>
+              <li><a href="#" onclick="openCollection('ecoliving'); return false;">Eco-Luxury Living</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Contact</h5>
+            <ul>
+              <li><a href="tel:+918078020806">+91 80780 20806</a></li>
+              <li><a href="mailto:info@amazingtaste.com">info@amazingtaste.com</a></li>
+              <li><a href="https://wa.me/918078020806" target="_blank" rel="noopener">WhatsApp Us</a></li>
+              <li><span>Kochi, Kerala</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 Amaizing Taste. All rights reserved. Made with 🌿 in Kerala.</p>
+          <p style="font-size:0.7rem; color:var(--clr-text-muted);">God's Own Country</p>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- /#collection-view -->
+
+  <!-- ═══════════════════════════════════════════════════════
+       CART DRAWER
+  ═══════════════════════════════════════════════════════════ -->
+  <aside id="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping cart">
+
+    <!-- Cart Header -->
+    <div class="cart-header">
+      <div class="cart-header-left">
+        <h3 id="cart-title">🛍 Your Bag</h3>
+        <div class="cart-steps">
+          <span class="cart-step active" id="step-dot-1">1</span>
+          <span class="cart-step-line"></span>
+          <span class="cart-step" id="step-dot-2">2</span>
+        </div>
+      </div>
+      <button class="cart-close" onclick="closeCart()" aria-label="Close cart">✕</button>
+    </div>
+
+    <!-- ── STEP 1: Cart Items ── -->
+    <div id="cart-step-1">
+      <div id="cart-items">
+        <div class="cart-empty">
+          <div class="cart-empty-icon">🛍️</div>
+          <p>Your bag is empty</p>
+          <span>Discover Kerala's finest produce</span>
+        </div>
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total-row">
+          <span>Order Total</span>
+          <span id="cart-total">₹0</span>
+        </div>
+        <button class="btn-checkout" onclick="goToCheckoutStep2()">
+          Proceed to Checkout →
+        </button>
+      </div>
+    </div>
+
+    <!-- ── STEP 2: Delivery Details ── -->
+    <div id="cart-step-2" style="display:none; flex-direction:column; height:100%;">
+      <div style="flex:1; overflow-y:auto; padding:1.2rem 1.5rem;">
+        <button class="back-btn" onclick="goToCartStep1()" style="margin-bottom:1rem; font-size:0.78rem;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          Back to Bag
+        </button>
+        <p style="font-size:0.78rem; color:var(--clr-gold); letter-spacing:0.1em; text-transform:uppercase; margin-bottom:1rem;">📦 Delivery Details</p>
+
+        <div class="form-group">
+          <label for="co-name">Full Name</label>
+          <input type="text" id="co-name" placeholder="e.g. Rahul Menon" required />
+        </div>
+        <div class="form-group">
+          <label for="co-address">Full Delivery Address</label>
+          <textarea id="co-address" rows="3" placeholder="House No., Street, City, State, PIN Code" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="co-phone">WhatsApp Number</label>
+          <input type="tel" id="co-phone" placeholder="+91 XXXXX XXXXX" required />
+        </div>
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total-row">
+          <span>Order Total</span>
+          <span id="cart-total-2">₹0</span>
+        </div>
+        <button class="btn-checkout" onclick="placeWhatsAppOrder()">
+          Place Order via WhatsApp →
+        </button>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- ═══════════════════════════════════════════════════════
+       ENQUIRY MODAL
+  ═══════════════════════════════════════════════════════════ -->
+  <div id="enquiry-modal" role="dialog" aria-modal="true" aria-label="Send an enquiry">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3>Send an Enquiry</h3>
+        <button class="modal-close" onclick="closeEnquiryModal()" aria-label="Close enquiry form">✕</button>
+      </div>
+      <form onsubmit="submitEnquiry(event)" novalidate>
+        <div class="form-group">
+          <label for="eq-name">Your Name</label>
+          <input type="text" id="eq-name" name="name" placeholder="e.g. Rahul Menon" required />
+        </div>
+        <div class="form-group">
+          <label for="eq-phone">Phone / WhatsApp</label>
+          <input type="tel" id="eq-phone" name="phone" placeholder="+91 XXXXX XXXXX" required />
+        </div>
+        <div class="form-group">
+          <label for="eq-message">Your Enquiry</label>
+          <textarea id="eq-message" name="message" placeholder="Tell us what you're looking for…" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">
+          Send via WhatsApp →
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Theme Switcher Widget -->
+  <div id="theme-switcher" role="radiogroup" aria-label="Select color theme">
+    <button class="theme-dot active" data-theme="forest" aria-checked="true" aria-label="Forest Luxury theme" title="Forest Luxury (Default)"></button>
+    <button class="theme-dot" data-theme="terracotta" aria-checked="false" aria-label="Earthy Terracotta theme" title="Earthy Terracotta"></button>
+    <button class="theme-dot" data-theme="indigo" aria-checked="false" aria-label="Midnight Indigo theme" title="Midnight Indigo"></button>
+    <button class="theme-dot" data-theme="plum" aria-checked="false" aria-label="Imperial Plum theme" title="Imperial Plum"></button>
+  </div>
+
+  <script src="app.js?v=4.1"></script>
+</body>
+</html>
