@@ -1,5 +1,5 @@
 // ============================================================
-//  Amaizing Taste – V4 Kerala Luxury Storefront
+//  Amaizing Taste – V4 Wayanad Luxury Storefront
 //  app.js – Data Layer, SPA Routing & UI Logic
 // ============================================================
 
@@ -10,14 +10,14 @@ const COLLECTIONS = [
   {
     id: 'pickles',
     name: 'Artisan Pickles & Preserves',
-    tagline: 'Age-old Kerala recipes, preserved with love',
+    tagline: 'Age-old Wayanad recipes, preserved with love',
     icon: '🫙',
     image: 'assets/images/mango_pickle_jar.png',
-    description: 'Handcrafted in small batches using traditional recipes passed down through generations of Kerala households.',
+    description: 'Handcrafted in small batches using traditional recipes passed down through generations of Wayanad households.',
     products: [
-      { id: 'p1', name: 'Mango Preserves', price: 320, image: 'assets/images/v4_mango_pickle.png', desc: 'Raw Kerala mango slow-cured in aromatic spice brine', weight: '250g', badge: 'Bestseller' },
+      { id: 'p1', name: 'Mango Preserves', price: 320, image: 'assets/images/v4_mango_pickle.png', desc: 'Raw Wayanad mango slow-cured in aromatic spice brine', weight: '250g', badge: 'Bestseller' },
       { id: 'p2', name: "Veg Pickle's", price: 280, image: 'assets/images/v4_luxury_box.png', desc: 'Mixed seasonal vegetables pickled in mustard oil & spices', weight: '300g', badge: '' },
-      { id: 'p3', name: 'Traditional Kerala Preserves', price: 350, image: 'assets/images/v4_luxury_box.png', desc: 'Authentic thokku-style preserve using heirloom varieties', weight: '200g', badge: 'Heritage' }
+      { id: 'p3', name: 'Traditional Wayanad Preserves', price: 350, image: 'assets/images/v4_luxury_box.png', desc: 'Authentic thokku-style preserve using heirloom varieties', weight: '200g', badge: 'Heritage' }
     ]
   },
   {
@@ -26,21 +26,21 @@ const COLLECTIONS = [
     tagline: 'From the spice gardens of Wayanad & Idukki',
     icon: '🌿',
     image: 'assets/images/v4_spices.png',
-    description: 'Single-estate spices, hand-selected from the high-altitude gardens of Kerala. Pure, potent, and unblended.',
+    description: 'Single-estate spices, hand-selected from the high-altitude gardens of Wayanad. Pure, potent, and unblended.',
     products: [
       { id: 'p4', name: 'Green Cardamom [8mm+]', price: 890, image: 'assets/images/spice_packaging.png', desc: 'Premium large-pod cardamom, hand-sorted from Idukki', weight: '100g', badge: 'Grade A' },
       { id: 'p5', name: 'Black Pepper', price: 420, image: 'assets/images/v4_luxury_box.png', desc: 'Tellicherry pepper — bold, pungent, earthy', weight: '200g', badge: '' },
-      { id: 'p6', name: 'Curry Spice Blend', price: 360, image: 'assets/images/v4_luxury_box.png', desc: 'House-ground Kerala curry masala with 14 spices', weight: '150g', badge: 'Exclusive' },
+      { id: 'p6', name: 'Curry Spice Blend', price: 360, image: 'assets/images/v4_luxury_box.png', desc: 'House-ground Wayanad curry masala with 14 spices', weight: '150g', badge: 'Exclusive' },
       { id: 'p7', name: 'Microgreens Powder', price: 480, image: 'assets/images/v4_luxury_box.png', desc: 'Freeze-dried moringa & spirulina microgreens blend', weight: '80g', badge: 'Superfood' }
     ]
   },
   {
     id: 'sundried',
     name: 'Sun-Cured Delicacies',
-    tagline: 'Preserved by the Kerala sun, eaten through the year',
+    tagline: 'Preserved by the Wayanad sun, eaten through the year',
     icon: '☀️',
     image: 'assets/images/sundried_packaging.png',
-    description: 'Traditional sun-drying is an ancient Kerala art. Each piece retains the full depth of tropical flavour — naturally concentrated.',
+    description: 'Traditional sun-drying is an ancient Wayanad art. Each piece retains the full depth of tropical flavour — naturally concentrated.',
     products: [
       { id: 'p8', name: 'Sun-Dried Jackfruit', price: 380, image: 'assets/images/v4_jackfruit.png', desc: 'Slow solar-dried chakka — chewy, caramel-sweet, tropical', weight: '200g', badge: 'Traditional' },
       { id: 'p9', name: 'Sun-Dried Tapioca', price: 220, image: 'assets/images/v4_luxury_box.png', desc: 'Crispy kappa chips, sun-dried and spice dusted', weight: '250g', badge: '' },
@@ -50,33 +50,33 @@ const COLLECTIONS = [
   {
     id: 'snacks',
     name: 'Gourmet Snack Selection',
-    tagline: 'Kerala\'s beloved snacks, elevated for the connoisseur',
+    tagline: 'Wayanad\'s beloved snacks, elevated for the connoisseur',
     icon: '🍌',
     image: 'assets/images/v4_banana_chips.png',
-    description: 'Classic Kerala snacks crafted with heritage ingredients. Each bite carries the warmth of a traditional Kerala kitchen.',
+    description: 'Classic Wayanad snacks crafted with heritage ingredients. Each bite carries the warmth of a traditional Wayanad kitchen.',
     products: [
       { id: 'p11', name: 'Banana Chips', price: 260, image: 'assets/images/v4_banana_chips.png', desc: 'Wafer-thin Nendran banana chips fried in coconut oil', weight: '300g', badge: 'Bestseller' },
       { id: 'p12', name: 'Tapioca Chips', price: 220, image: 'assets/images/v4_luxury_box.png', desc: 'Crispy kappa chips seasoned with rock salt & chilli', weight: '300g', badge: '' },
-      { id: 'p13', name: 'Avalose Powder', price: 290, image: 'assets/images/v4_luxury_box.png', desc: 'Roasted rice-coconut powder, a traditional Kerala sweet', weight: '250g', badge: 'Heritage' }
+      { id: 'p13', name: 'Avalose Powder', price: 290, image: 'assets/images/v4_luxury_box.png', desc: 'Roasted rice-coconut powder, a traditional Wayanad sweet', weight: '250g', badge: 'Heritage' }
     ]
   },
   {
     id: 'hampers',
     name: 'Luxury Gift Hampers',
-    tagline: 'Curated Kerala gifting for those who appreciate the finest',
+    tagline: 'Curated Wayanad gifting for those who appreciate the finest',
     icon: '🎁',
     image: 'assets/images/v4_hamper.png',
-    description: 'Elegantly curated hampers celebrating the richness of Kerala. Each box is handpacked and tied with signature gold silk ribbon.',
+    description: 'Elegantly curated hampers celebrating the richness of Wayanad. Each box is handpacked and tied with signature gold silk ribbon.',
     products: [
       { id: 'p14', name: 'Spice Collection Box', price: 1890, image: 'assets/images/v4_spices.png', desc: 'Curated set of 4 premium single-estate spices', weight: 'Set of 4', badge: 'Gift Ready' },
-      { id: 'p15', name: 'Snack Combo Box', price: 1490, image: 'assets/images/v4_banana_chips.png', desc: 'Assorted Kerala snack collection in a signature box', weight: '5 items', badge: '' },
-      { id: 'p16', name: 'Premium Kerala Hamper', price: 3490, image: 'assets/images/v4_luxury_box.png', desc: 'The ultimate Kerala luxury hamper — 12 curated items', weight: '12 items', badge: 'Luxury' }
+      { id: 'p15', name: 'Snack Combo Box', price: 1490, image: 'assets/images/v4_banana_chips.png', desc: 'Assorted Wayanad snack collection in a signature box', weight: '5 items', badge: '' },
+      { id: 'p16', name: 'Premium Wayanad Hamper', price: 3490, image: 'assets/images/v4_luxury_box.png', desc: 'The ultimate Wayanad luxury hamper — 12 curated items', weight: '12 items', badge: 'Luxury' }
     ]
   },
   {
     id: 'harvest',
     name: 'Fresh Harvest Selection',
-    tagline: 'From Kerala\'s groves to your home, farm-fresh',
+    tagline: 'From Wayanad\'s groves to your home, farm-fresh',
     icon: '🥥',
     image: 'assets/images/v4_oil.png',
     description: 'Seasonal harvests from our partner farms in Thrissur and Ernakulam, delivered with care and minimal processing.',
@@ -89,13 +89,27 @@ const COLLECTIONS = [
   {
     id: 'ecoliving',
     name: 'Eco-Luxury Living',
-    tagline: 'Bamboo & vetiver craftsmanship from Kerala artisans',
+    tagline: 'Bamboo & vetiver craftsmanship from Wayanad artisans',
     icon: '🌾',
     image: 'assets/images/ecoliving_packaging.png',
-    description: 'Artisan-made products from sustainable bamboo and Ramacham vetiver, crafted by master weavers in rural Kerala.',
+    description: 'Artisan-made products from sustainable bamboo and Ramacham vetiver, crafted by master weavers in rural Wayanad.',
     products: [
       { id: 'p20', name: 'Vetiver [Ramacham] Products', price: 520, image: 'assets/images/v4_vetiver.png', desc: 'Hand-crafted Ramacham mats, sachets, and bath products', weight: 'Assorted', badge: 'Artisan' },
       { id: 'p21', name: 'Bamboo Handcrafted Items', price: 680, image: 'assets/images/v4_luxury_box.png', desc: 'Sustainable hand-woven bamboo baskets & utility items', weight: 'Assorted', badge: 'Eco' }
+    ]
+  },
+  {
+    id: 'fruits',
+    name: 'Premium Exotic Fruits',
+    tagline: 'Hand-plucked from the mist-covered orchards of Wayanad',
+    icon: '🥑',
+    image: 'assets/images/v4_exotic_fruits.png',
+    description: 'Farm-fresh, chemical-free exotic fruits grown in high-altitude orchards, harvested at peak maturity and packed carefully to preserve freshness.',
+    products: [
+      { id: 'p22', name: 'Premium Avocado', price: 380, image: 'assets/images/v4_avocado.png', desc: 'Buttery, rich Wayanad avocados, perfect for spreads and shakes', weight: '1kg', badge: 'Farm Fresh' },
+      { id: 'p23', name: 'Fresh Rambutan', price: 290, image: 'assets/images/v4_rambutan.png', desc: 'Juicy, sweet rambutans with a tender, translucent pulp', weight: '500g', badge: 'Seasonal' },
+      { id: 'p24', name: 'Sweet Lychee', price: 320, image: 'assets/images/v4_lychee.png', desc: 'Fragrant and luscious pink lychees, handpicked at dawn', weight: '500g', badge: 'Fresh Crop' },
+      { id: 'p25', name: 'Caramel Sapodilla [Chikoo]', price: 240, image: 'assets/images/v4_sapodilla.png', desc: 'Sweet, malty sapodillas with a smooth caramel texture', weight: '1kg', badge: '' }
     ]
   }
 ];
@@ -254,7 +268,7 @@ function updateCartUI() {
       <div class="cart-empty">
         <div class="cart-empty-icon">🛍️</div>
         <p>Your bag is empty</p>
-        <span>Discover Kerala's finest produce</span>
+        <span>Discover Wayanad's finest produce</span>
       </div>`;
     return;
   }
