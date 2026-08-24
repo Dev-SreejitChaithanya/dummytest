@@ -12,14 +12,14 @@ const TRANSLATIONS = {
     nav_collections: "Collections",
     nav_about: "About Us",
     nav_contact: "Contact",
-    hero_label: "Wayanad(Vayal Nadu) · Artisan Store",
+    hero_label: "Wayanad · Wayanadan Luxury Taste",
     hero_title: "The Taste of<br><span>Wayanad's Finest</span>",
     hero_subtitle: "Amaizing Taste — Fresh from the Hills of Wayanad to Your Doorstep.",
     hero_cta: "Shop Collections",
     motto_text: "Sourced from the finest Wayanadan farms to the world",
     about_label: "About Us",
     about_title: "Preserving Heritage, Empowering Communities",
-    about_desc: "Amaizing Taste is dedicated to celebrating the rich, unadulterated flavors of Wayanad. We partner directly with local farmers across Wayanad(Vayal Nadu) to bring you fresh spices, sun-dried delicacies, and luxury gift hampers, straight from the heart of the plantations to your doorstep.",
+    about_desc: "Amaizing Taste is dedicated to celebrating the rich, unadulterated flavors of Wayanad. We partner directly with local farmers across Wayanad to bring you fresh spices, sun-dried delicacies, and luxury gift hampers, straight from the heart of the plantations to your doorstep.",
     feature_sourcing_title: "Farm-Direct Sourcing",
     feature_sourcing_desc: "We partner directly with small-hold farmers across Wayanad's spice belts — no middlemen, maximum freshness.",
     feature_artisan_title: "Small-Batch Artisan Production",
@@ -44,14 +44,14 @@ const TRANSLATIONS = {
     back_to_collections: "All Collections",
     back_to_collections_btn: "Back to All Collections",
     back_to_bag: "Back to Bag",
-    col_pickles: "Pickles & Preserves",
-    col_spices: "Exotic Spices",
-    col_sundried: "Sun-Cured Delicacies",
-    col_snacks: "Gourmet Snacks",
-    col_hampers: "Luxury Hampers",
-    col_harvest: "Fresh Harvest",
-    col_ecoliving: "Eco-Luxury Living",
-    col_fruits: "Premium Exotic Fruits",
+    col_spices: "Wayanad Single-Origin Spices",
+    col_rice: "Wayanad Heritage Rice",
+    col_coffee_tea: "Wayanad Estate Coffee & Tea",
+    col_snacks: "Wayanad Artisan Snacks",
+    col_gifts: "Wayanad Gift Collections",
+    col_eco_luxury: "Wayanad Eco Luxury",
+    col_harvest: "Wayanad Fresh Harvest",
+    col_wellness: "Wayanad Wellness",
     collections_label: "Our Collections",
     collections_title: "Explore Wayanad's Finest",
     collections_desc: "Each collection is a chapter of Wayanad's rich culinary and artisan heritage — handpicked, small-batch, and delivered with care.",
@@ -100,14 +100,14 @@ const TRANSLATIONS = {
     back_to_collections: "كل المجموعات",
     back_to_collections_btn: "العودة إلى كل المجموعات",
     back_to_bag: "العودة للحقيبة",
-    col_pickles: "مخللات ومربيات",
-    col_spices: "توابل نادرة",
-    col_sundried: "أطباق مجففة بالشمس",
-    col_snacks: "وجبات خفيفة فاخرة",
-    col_hampers: "سلال هدايا",
-    col_harvest: "محاصيل طازجة",
-    col_ecoliving: "حياة صديقة للبيئة",
-    col_fruits: "فواكه استوائية ممتازة",
+    col_spices: "توابل ذات مصدر واحد من واياناد",
+    col_rice: "أرز التراث من واياناد",
+    col_coffee_tea: "قهوة وشاي مزرعة واياناد",
+    col_snacks: "وجبات خفيفة حرفية من واياناد",
+    col_gifts: "مجموعات الهدايا من واياناد",
+    col_eco_luxury: "الفخامة البيئية من واياناد",
+    col_harvest: "محصول طازج من واياناد",
+    col_wellness: "العافية من واياناد",
     collections_label: "مجموعاتنا",
     collections_title: "استكشف أفضل منتجات واياناد",
     collections_desc: "كل مجموعة هي فصل من تراث الطهي والحرف الغني في واياناد - مختارة يدوياً، على دفعات صغيرة، ومسلمة بكل عناية.",
@@ -124,14 +124,14 @@ const TRANSLATIONS = {
     nav_collections: "Collections",
     nav_about: "À Propos",
     nav_contact: "Contact",
-    hero_label: "Wayanad(Vayal Nadu) · Boutique Artisanale",
+    hero_label: "Wayanad · Boutique Artisanale",
     hero_title: "Le Goût du Meilleer de<br><span>Wayanad</span>",
     hero_subtitle: "Amaizing Taste — Frais depuis les collines de Wayanad jusqu'à votre porte.",
     hero_cta: "Découvrir les Collections",
     motto_text: "Issu des meilleurs fermiers de Wayanad pour le monde entier",
     about_label: "À Propos",
     about_title: "Préserver l'Héritage, Soutenir les Communautés",
-    about_desc: "Amaizing Taste se consacre à célébrer les saveurs riches et authentiques de Wayanad. Nous collaborons directement avec les agriculteurs locaux de Wayanad(Vayal Nadu) pour vous proposer des épices fraîches, des délices séchés au soleil et des coffrets cadeaux de luxe, directement de la plantation à votre porte.",
+    about_desc: "Amaizing Taste se consacre à célébrer les saveurs riches et authentiques de Wayanad. Nous collaborons directement avec les agriculteurs locaux de Wayanad pour vous proposer des épices fraîches, des délices séchés au soleil et des coffrets cadeaux de luxe, directement de la plantation à votre porte.",
     feature_sourcing_title: "Directement du Producteur",
     feature_sourcing_desc: "Nous collaborons directement avec les petits agriculteurs des régions d'épices de Wayanad — sans intermédiaires, fraîcheur maximale.",
     feature_artisan_title: "Production Artisanale en Petites Lots",
@@ -156,14 +156,14 @@ const TRANSLATIONS = {
     back_to_collections: "Toutes les Collections",
     back_to_collections_btn: "Retour à toutes les collections",
     back_to_bag: "Retour au Panier",
-    col_pickles: "Pickles & Conserves",
-    col_spices: "Épices Exotiques",
-    col_sundried: "Délices Séchés au Soleil",
-    col_snacks: "Snacks Gourmets",
-    col_hampers: "Paniers de Luxe",
-    col_harvest: "Récolte Fraîche",
-    col_ecoliving: "Vie Éco-Luxe",
-    col_fruits: "Fruits Exotiques Premium",
+    col_spices: "Épices d'Origine Unique de Wayanad",
+    col_rice: "Riz Héritage de Wayanad",
+    col_coffee_tea: "Café et Thé du Domaine de Wayanad",
+    col_snacks: "Snacks Artisanaux de Wayanad",
+    col_gifts: "Collections de Cadeaux de Wayanad",
+    col_eco_luxury: "Éco-Luxe de Wayanad",
+    col_harvest: "Récolte Fraîche de Wayanad",
+    col_wellness: "Bien-être de Wayanad",
     collections_label: "Nos Collections",
     collections_title: "Découvrez le meilleur de Wayanad",
     collections_desc: "Chaque collection est un chapitre du riche patrimoine culinaire et artisanal de Wayanad — sélectionné à la main, en petites quantités et livré avec soin.",
@@ -180,14 +180,14 @@ const TRANSLATIONS = {
     nav_collections: "Kollektionen",
     nav_about: "Über Uns",
     nav_contact: "Kontakt",
-    hero_label: "Wayanad(Vayal Nadu) · Kunsthandwerksladen",
+    hero_label: "Wayanad · Kunsthandwerksladen",
     hero_title: "Der Geschmack von<br><span>Wayanads Feinstem</span>",
     hero_subtitle: "Amaizing Taste — Frisch von den Hügeln von Wayanad direkt vor Ihre Haustür.",
     hero_cta: "Kollektionen Durchsuchen",
     motto_text: "Von den besten Bauern Wayanads für die ganze Welt bezogen",
     about_label: "Über Uns",
     about_title: "Erbe bewahren, Gemeinschaften stärken",
-    about_desc: "Amaizing Taste widmet sich dem Feiern der reichen, unverfälschten Aromen von Wayanad. Wir arbeiten direkt mit lokalen Bauern in ganz Wayanad(Vayal Nadu) zusammen, um Ihnen frische Gewürze, sonnengetrocknete Köstlichkeiten und luxuriöse Geschenkkörbe direkt von den Plantagen nach Hause zu bringen.",
+    about_desc: "Amaizing Taste widmet sich dem Feiern der reichen, unverfälschten Aromen von Wayanad. Wir arbeiten direkt mit lokalen Bauern in ganz Wayanad zusammen, um Ihnen frische Gewürze, sonnengetrocknete Köstlichkeiten und luxuriöse Geschenkkörbe direkt von den Plantagen nach Hause zu bringen.",
     feature_sourcing_title: "Direkt vom Bauernhof",
     feature_sourcing_desc: "Wir arbeiten direkt mit Kleinbauern in Wayanads Gewürzgürteln zusammen — keine Zwischenhändler, maximale Frische.",
     feature_artisan_title: "Traditionelle Herstellung",
@@ -212,14 +212,14 @@ const TRANSLATIONS = {
     back_to_collections: "Alle Kollektionen",
     back_to_collections_btn: "Zurück zu allen Kollektionen",
     back_to_bag: "Zurück zum Warenkorb",
-    col_pickles: "Pickles & Konserven",
-    col_spices: "Exotische Gewürze",
-    col_sundried: "Sonnengereifte Delikatessen",
-    col_snacks: "Gourmet-Snacks",
-    col_hampers: "Luxus-Geschenkkörbe",
-    col_harvest: "Frische Ernte",
-    col_ecoliving: "Öko-Luxus Leben",
-    col_fruits: "Exotische Früchte Premium",
+    col_spices: "Wayanad Single-Origin Gewürze",
+    col_rice: "Wayanad Heritage Reis",
+    col_coffee_tea: "Wayanad Estate Kaffee & Tee",
+    col_snacks: "Wayanad Kunsthandwerkliche Snacks",
+    col_gifts: "Wayanad Geschenkkollektionen",
+    col_eco_luxury: "Wayanad Öko-Luxus",
+    col_harvest: "Frische Ernte aus Wayanad",
+    col_wellness: "Wayanad Wellness",
     collections_label: "Unsere Kollektionen",
     collections_title: "Erkunden Sie Wayanads Feinstes",
     collections_desc: "Jede Kollektion ist ein Kapitel des reichen kulinarischen und handwerklichen Erbes von Wayanad — handverlesen, in kleinen Chargen hergestellt und mit Sorgfalt geliefert.",
@@ -230,6 +230,286 @@ const TRANSLATIONS = {
     input_phone_placeholder: "+91 XXXXX XXXXX",
     input_enquiry_placeholder: "Teilen Sie uns mit, was Sie suchen...",
     input_notes: "Besondere Anmerkungen (Optional)"
+  },
+  es: {
+    nav_home: "Inicio",
+    nav_collections: "Colecciones",
+    nav_about: "Nosotros",
+    nav_contact: "Contacto",
+    hero_label: "Wayanad · Tienda Artesanal",
+    hero_title: "El Sabor de lo<br><span>Mejor de Wayanad</span>",
+    hero_subtitle: "Amaizing Taste — Fresco desde las colinas de Wayanad hasta su puerta.",
+    hero_cta: "Comprar Colecciones",
+    motto_text: "Obtenido de las mejores granjas de Wayanad para el mundo",
+    about_label: "Nosotros",
+    about_title: "Preservando el Patrimonio, Empoderando Comunidades",
+    about_desc: "Amaizing Taste se dedica a celebrar los sabores ricos y puros de Wayanad. Nos asociamos directamente con agricultores locales en Wayanad para traerle especias frescas, delicias secadas al sol y canastas de regalo de lujo, directamente desde el corazón de las plantaciones hasta su puerta.",
+    feature_sourcing_title: "Abastecimiento Directo de la Granja",
+    feature_sourcing_desc: "Nos asociamos directamente con pequeños agricultores en las zonas de especias de Wayanad — sin intermediarios, máxima frescura.",
+    feature_artisan_title: "Producción Artesanal en Lotes Pequeños",
+    feature_artisan_desc: "Cada frasco, bolsa y canasta se elabora en lotes pequeños cuidadosamente controlados para preservar la calidad.",
+    feature_gift_title: "Embalaje de Regalo Exclusivo",
+    feature_gift_desc: "Nuestras canastas de regalo de lujo están empaquetadas a mano con una cinta de seda dorada — perfectas para regalos premium.",
+    contact_label: "Contáctenos",
+    contact_title: "Conectemos",
+    contact_desc: "¿Tiene preguntas o pedidos al por mayor? Comuníquese a través de WhatsApp, llamada o correo electrónico, o visite nuestra tienda en Wayanad.",
+    contact_btn: "Enviar Consulta",
+    footer_desc: "Amaizing Taste — Fresco desde las colinas de Wayanad hasta su puerta. Empaquetado a mano con pasión, presentado con lujo.",
+    footer_cols: "Colecciones",
+    footer_contact: "Contacto",
+    footer_address: "Wayanad, Kerala",
+    whatsapp_order: "Pedido por WhatsApp",
+    cart_title: "Su Bolsa",
+    cart_empty: "Su bolsa está vacía",
+    cart_total_label: "Subtotal",
+    cart_btn_checkout: "Proceder al Pago por WhatsApp",
+    checkout_title: "Detalles de Entrega",
+    checkout_btn_submit: "Realizar Pedido por WhatsApp",
+    back_to_collections: "Todas las Colecciones",
+    back_to_collections_btn: "Volver a Todas las Colecciones",
+    back_to_bag: "Volver a la Bolsa",
+    col_spices: "Especias de Origen Único de Wayanad",
+    col_rice: "Arroz Patrimonial de Wayanad",
+    col_coffee_tea: "Café y Té de Finca de Wayanad",
+    col_snacks: "Aperitivos Artesanales de Wayanad",
+    col_gifts: "Colecciones de Regalos de Wayanad",
+    col_eco_luxury: "Eco-Lujo de Wayanad",
+    col_harvest: "Cosecha Fresca de Wayanad",
+    col_wellness: "Bienestar de Wayanad",
+    collections_label: "Nuestras Colecciones",
+    collections_title: "Explore lo Mejor de Wayanad",
+    collections_desc: "Cada colección es un capítulo del rico patrimonio culinario y artesanal de Wayanad — seleccionada a mano, en lotes pequeños y entregada con cuidado.",
+    input_enquiry: "Su Consulta",
+    enquiry_btn_submit: "Enviar por WhatsApp →",
+    input_name_placeholder: "ej. Rahul Menon",
+    input_address_placeholder: "No. de Casa, Calle, Ciudad, Estado, Código Postal",
+    input_phone_placeholder: "+91 XXXXX XXXXX",
+    input_enquiry_placeholder: "Cuéntenos qué está buscando...",
+    input_notes: "Notas Especiales (Opcional)"
+  },
+  da: {
+    nav_home: "Hjem",
+    nav_collections: "Kollektioner",
+    nav_about: "Om Os",
+    nav_contact: "Kontakt",
+    hero_label: "Wayanad · Håndværksbutik",
+    hero_title: "Smagen af<br><span>Wayanads Bedste</span>",
+    hero_subtitle: "Amaizing Taste — Frisk fra Wayanads bakker til din dør.",
+    hero_cta: "Shop Kollektioner",
+    motto_text: "Leveret fra de bedste gårde i Wayanad til verden",
+    about_label: "Om Os",
+    about_title: "Bevarelse af Kulturarv, Styrkelse af Lokalsamfund",
+    about_desc: "Amaizing Taste er dedikeret til at fejre de rige, rene smage fra Wayanad. Vi samarbejder direkte med lokale landmænd i hele Wayanad for at bringe dig friske krydderier, soltørrede lækkerier og luksuriøse gavekurve, direkte fra plantagernes hjerte til din dør.",
+    feature_sourcing_title: "Direkte fra Gården",
+    feature_sourcing_desc: "Vi samarbejder direkte med småbønder i Wayanads krydderibælter — ingen mellemled, maksimal friskhed.",
+    feature_artisan_title: "Håndværksmæssig Produktion i Små Partier",
+    feature_artisan_desc: "Hvert glas, pose og kurv er fremstillet i nøje kontrollerede små partier for at bevare kvaliteten.",
+    feature_gift_title: "Unik Gaveindpakning",
+    feature_gift_desc: "Vores luksuriøse gavekurve er håndpakket med et gyldent silkebånd — perfekt til eksklusive gaver.",
+    contact_label: "Kontakt Os",
+    contact_title: "Lad os Forbinde",
+    contact_desc: "Har du spørgsmål eller engrosordrer? Kontakt os via WhatsApp, telefon eller e-mail, eller besøg vores butik i Wayanad.",
+    contact_btn: "Send Forespørgsel",
+    footer_desc: "Amaizing Taste — Frisk fra Wayanads bakker til din dør. Håndpakket med passion, pakket med luksus.",
+    footer_cols: "Kollektioner",
+    footer_contact: "Kontakt",
+    footer_address: "Wayanad, Kerala",
+    whatsapp_order: "WhatsApp Bestilling",
+    cart_title: "Din Kurv",
+    cart_empty: "Din kurv er tom",
+    cart_total_label: "Subtotal",
+    cart_btn_checkout: "Fortsæt til WhatsApp Checkout",
+    checkout_title: "Leveringsoplysninger",
+    checkout_btn_submit: "Afgiv Ordre via WhatsApp",
+    back_to_collections: "Alle Kollektioner",
+    back_to_collections_btn: "Tilbage til Alle Kollektioner",
+    back_to_bag: "Tilbage til Kurven",
+    col_spices: "Wayanad Single-Origin Krydderier",
+    col_rice: "Wayanad Heritage Ris",
+    col_coffee_tea: "Wayanad Estate Kaffe & Te",
+    col_snacks: "Wayanad Håndværksmæssige Snacks",
+    col_gifts: "Wayanad Gavekollektioner",
+    col_eco_luxury: "Wayanad Øko-Luksus",
+    col_harvest: "Frisk Høst fra Wayanad",
+    col_wellness: "Wayanad Wellness",
+    collections_label: "Vores Kollektioner",
+    collections_title: "Udforsk Wayanads Bedste",
+    collections_desc: "Hver kollektion er et kapitel i Wayanads rige kulinariske og håndværksmæssige arv — håndplukket, i små partier og leveret med omhu.",
+    input_enquiry: "Din Forespørgsel",
+    enquiry_btn_submit: "Send via WhatsApp →",
+    input_name_placeholder: "f.eks. Rahul Menon",
+    input_address_placeholder: "Husnr., Gade, By, Stat, Postnummer",
+    input_phone_placeholder: "+91 XXXXX XXXXX",
+    input_enquiry_placeholder: "Fortæl os, hvad du leder efter…",
+    input_notes: "Særlige Bemærkninger (Valgfrit)"
+  },
+  it: {
+    nav_home: "Home",
+    nav_collections: "Collezioni",
+    nav_about: "Chi Siamo",
+    nav_contact: "Contatti",
+    hero_label: "Wayanad · Negozio Artigianale",
+    hero_title: "Il Sapore del<br><span>Meglio di Wayanad</span>",
+    hero_subtitle: "Amaizing Taste — Fresco dalle colline di Wayanad direttamente a casa tua.",
+    hero_cta: "Acquista Collezioni",
+    motto_text: "Proveniente dalle migliori fattorie di Wayanad per il mondo",
+    about_label: "Chi Siamo",
+    about_title: "Preservare il Patrimonio, Sostenere le Comunità",
+    about_desc: "Amaizing Taste si dedica a celebrare i sapori ricchi e puri di Wayanad. Collaboriamo direttamente con i contadini locali in tutto il Wayanad per portarvi spezie fresche, prelibatezze essiccate al sole e cesti regalo di lusso, direttamente dal cuore delle piantagioni alla vostra porta.",
+    feature_sourcing_title: "Approvvigionamento Diretto dal Produttore",
+    feature_sourcing_desc: "Collaboriamo direttamente con i piccoli coltivatori delle zone delle spezie di Wayanad — senza intermediari, massima freschezza.",
+    feature_artisan_title: "Produzione Artigianale in Piccoli Lotti",
+    feature_artisan_desc: "Ogni vasetto, sacchetto e cesto è realizzato in piccoli lotti attentamente controllati per preservare la qualità.",
+    feature_gift_title: "Confezione Regalo Esclusiva",
+    feature_gift_desc: "I nostri cesti regalo di lusso sono confezionati a mano con un nastro di seta dorato — perfetti per regali di alta qualità.",
+    contact_label: "Contattaci",
+    contact_title: "Mettiamoci in Contatto",
+    contact_desc: "Hai domande o ordini all'ingrosso? Contattaci tramite WhatsApp, telefono o e-mail, o visita il nostro negozio a Wayanad.",
+    contact_btn: "Invia Richiesta",
+    footer_desc: "Amaizing Taste — Fresco dalle colline di Wayanad direttamente a casa tua. Confezionato a mano con passione, presentato con lusso.",
+    footer_cols: "Collezioni",
+    footer_contact: "Contatti",
+    footer_address: "Wayanad, Kerala",
+    whatsapp_order: "Ordine WhatsApp",
+    cart_title: "Il Tuo Carrello",
+    cart_empty: "Il tuo carrello è vuoto",
+    cart_total_label: "Totale parziale",
+    cart_btn_checkout: "Procedi al Pagamento su WhatsApp",
+    checkout_title: "Dettagli di Consegna",
+    checkout_btn_submit: "Effettua l'Ordine su WhatsApp",
+    back_to_collections: "Tutte le Collezioni",
+    back_to_collections_btn: "Torna a Tutte le Collezioni",
+    back_to_bag: "Torna al Carrello",
+    col_spices: "Spezie Monorigine di Wayanad",
+    col_rice: "Riso del Patrimonio di Wayanad",
+    col_coffee_tea: "Tè e Caffè della Finca di Wayanad",
+    col_snacks: "Snack Artigianali di Wayanad",
+    col_gifts: "Collezioni Regalo di Wayanad",
+    col_eco_luxury: "Eco-Lusso di Wayanad",
+    col_harvest: "Raccolto Fresco di Wayanad",
+    col_wellness: "Benessere di Wayanad",
+    collections_label: "Le Nostre Collezioni",
+    collections_title: "Esplora il Meglio di Wayanad",
+    collections_desc: "Ogni collezione è un capitolo del ricco patrimonio culinario e artigianale di Wayanad — selezionata a mano, in piccoli lotti e consegnata con cura.",
+    input_enquiry: "La Tua Richiesta",
+    enquiry_btn_submit: "Invia via WhatsApp →",
+    input_name_placeholder: "es. Rahul Menon",
+    input_address_placeholder: "N. civico, Via, Città, Provincia, CAP",
+    input_phone_placeholder: "+91 XXXXX XXXXX",
+    input_enquiry_placeholder: "Raccontaci cosa stai cercando...",
+    input_notes: "Note Speciali (Opzionale)"
+  },
+  pt: {
+    nav_home: "Início",
+    nav_collections: "Coleções",
+    nav_about: "Sobre Nós",
+    nav_contact: "Contato",
+    hero_label: "Wayanad · Loja Artesanal",
+    hero_title: "O Sabor do Melhor<br><span>de Wayanad</span>",
+    hero_subtitle: "Amaizing Taste — Fresco das colinas de Wayanad para a sua porta.",
+    hero_cta: "Comprar Coleções",
+    motto_text: "Adquirido das melhores fazendas de Wayanad para o mundo",
+    about_label: "Sobre Nós",
+    about_title: "Preservando o Patrimônio, Fortalecendo Comunidades",
+    about_desc: "A Amaizing Taste é dedicada a celebrar os sabores ricos e puros de Wayanad. Fazemos parcerias diretas com agricultores locais em Wayanad para trazer a você especiarias frescas, iguarias secas ao sol e cestas de presentes de luxo, direto do coração das plantações para a sua porta.",
+    feature_sourcing_title: "Origem Direta da Fazenda",
+    feature_sourcing_desc: "Parceria direta com pequenos agricultores nas zonas de especiarias de Wayanad — sem intermediários, frescor máximo.",
+    feature_artisan_title: "Produção Artesanal em Pequenos Lotes",
+    feature_artisan_desc: "Cada frasco, sachê e cesta é feito em pequenos lotes cuidadosamente controlados para preservar a qualidade.",
+    feature_gift_title: "Embalagem de Presente Exclusiva",
+    feature_gift_desc: "Nossas cestas de presentes de luxo são embaladas à mão com fita de seda dourada — perfeitas para presentes premium.",
+    contact_label: "Contate-nos",
+    contact_title: "Vamos nos Conectar",
+    contact_desc: "Tem dúvidas ou pedidos de atacado? Entre em contato via WhatsApp, telefone ou e-mail, ou visite nossa loja em Wayanad.",
+    contact_btn: "Enviar Consulta",
+    footer_desc: "Amaizing Taste — Fresco das colinas de Wayanad para a sua porta. Embalado à mão com paixão, apresentado com luxo.",
+    footer_cols: "Coleções",
+    footer_contact: "Contato",
+    footer_address: "Wayanad, Kerala",
+    whatsapp_order: "Pedido via WhatsApp",
+    cart_title: "Sua Sacola",
+    cart_empty: "Sua sacola está vazia",
+    cart_total_label: "Subtotal",
+    cart_btn_checkout: "Prosseguir para o Pagamento via WhatsApp",
+    checkout_title: "Detalhes de Entrega",
+    checkout_btn_submit: "Fazer Pedido via WhatsApp",
+    back_to_collections: "Todas as Coleções",
+    back_to_collections_btn: "Voltar para Todas as Coleções",
+    back_to_bag: "Voltar para a Sacola",
+    col_spices: "Wayanad Single-Origin Spices",
+    col_rice: "Wayanad Heritage Rice",
+    col_coffee_tea: "Wayanad Estate Coffee & Tea",
+    col_snacks: "Wayanad Artisan Snacks",
+    col_gifts: "Wayanad Gift Collections",
+    col_eco_luxury: "Wayanad Eco Luxury",
+    col_harvest: "Wayanad Fresh Harvest",
+    col_wellness: "Wayanad Wellness",
+    collections_label: "Nossas Coleções",
+    collections_title: "Explore o Melhor de Wayanad",
+    collections_desc: "Cada coleção é um capítulo da rica herança culinária e artesanal de Wayanad — selecionada à mão, em pequenos lotes e entregue com cuidado.",
+    input_enquiry: "Sua Consulta",
+    enquiry_btn_submit: "Enviar via WhatsApp →",
+    input_name_placeholder: "ex. Rahul Menon",
+    input_address_placeholder: "Nº da Casa, Rua, Cidade, Estado, CEP",
+    input_phone_placeholder: "+91 XXXXX XXXXX",
+    input_enquiry_placeholder: "Diga-nos o que você está procurando...",
+    input_notes: "Notas Especiais (Opcional)"
+  },
+  he: {
+    nav_home: "דף הבית",
+    nav_collections: "קולקציות",
+    nav_about: "עלינו",
+    nav_contact: "צור קשר",
+    hero_label: "וואיאנאד · חנות מוצרים ארטיזנלית",
+    hero_title: "הטעם של<br><span>הטוב ביותר מוואיאנאד</span>",
+    hero_subtitle: "Amaizing Taste — טרי מגבעות וואיאנאד ישירות לפתח ביתכם.",
+    hero_cta: "לקניית הקולקציות",
+    motto_text: "ממיטב החוות של וואיאנאד אל העולם כולו",
+    about_label: "עלינו",
+    about_title: "שימור המורשת, העצמת קהילות מקומיות",
+    about_desc: "Amaizing Taste מוקדשת לחגיגת הטעמים העשירים והטבעיים של וואיאנאד. אנו משתפים פעולה ישירות עם חקלאים מקומיים ברחבי וואיאנאד כדי להביא אליכם תבלינים טריים, מעדנים מיובשים בשמש וסלי שי יוקרתיים, ישירות מלב המטעים לפתח ביתכם.",
+    feature_sourcing_title: "אספקה ישירה מהחווה",
+    feature_sourcing_desc: "אנו עובדים ישירות מול חקלאים קטנים באזורי התבלינים של וואיאנאד — ללא מתווכים, בטריות מרבית.",
+    feature_artisan_title: "ייצור ארטיזנלי בסדרות קטנות",
+    feature_artisan_desc: "כל צנצנת, שקית וסלסלה מיוצרים בסדרות קטנות תחת פיקוח קפדני לשמירה על האיכות.",
+    feature_gift_title: "אריזת מתנה ייחודית",
+    feature_gift_desc: "סלי השי היוקרתיים שלנו נארזים בעבודת יד ונקשרים בסרט משי מוזהב — מושלם כמתנה יוקרתית.",
+    contact_label: "צור קשר",
+    contact_title: "בואו נתחבר",
+    contact_desc: "יש לכם שאלות או הזמנות סיטונאיות? צרו קשר בוואטסאפ, בטלפון או באימייל, או בקרו בחנות שלנו בוואיאנאד.",
+    contact_btn: "שלח פנייה",
+    footer_desc: "Amaizing Taste — טרי מגבעות וואיאנאד ישירות לפתח ביתכם. נארז בעבודת יד עם תשוקה ובאיכות יוקרתית.",
+    footer_cols: "קולקציות",
+    footer_contact: "צור קשר",
+    footer_address: "וואיאנאד, קרלה",
+    whatsapp_order: "הזמנה בוואטסאפ",
+    cart_title: "הסל שלך",
+    cart_empty: "הסל שלך ריק",
+    cart_total_label: "סכום ביניים",
+    cart_btn_checkout: "המשך לתשלום בוואטסאפ",
+    checkout_title: "פרטי משלוח",
+    checkout_btn_submit: "ביצוע הזמנה בוואטסאפ",
+    back_to_collections: "כל הקולקציות",
+    back_to_collections_btn: "חזרה לכל הקולקציות",
+    back_to_bag: "חזרה לסל הקניות",
+    col_spices: "תבלינים ממקור יחיד מוואיאנאד",
+    col_rice: "אורז מורשת מוואיאנאד",
+    col_coffee_tea: "קפה ותה מאחוזת וואיאנאד",
+    col_snacks: "חטיפי ארטיזנל מוואיאנאד",
+    col_gifts: "אוספי מתנות מוואיאנאד",
+    col_eco_luxury: "אקו-לוקסורי מוואיאנאד",
+    col_harvest: "תוצרת טרייה מוואיאנאד",
+    col_wellness: "וולנס מוואיאנאד",
+    collections_label: "הקולקציות שלנו",
+    collections_title: "גלו את מיטב וואיאנאד",
+    collections_desc: "כל קולקציה היא פרק במורשת הקולינרית והארטיזנלית העשירה של וואיאנאד — נבחרה בעבודת יד, בסדרות קטנות ונמסרת באהבה.",
+    input_enquiry: "הפנייה שלך",
+    enquiry_btn_submit: "שלח בוואטסאפ ←",
+    input_name_placeholder: "למשל: ישראל ישראלי",
+    input_address_placeholder: "מספר בית, רחוב, עיר, מדינה, מיקוד",
+    input_phone_placeholder: "+91 XXXXX XXXXX",
+    input_enquiry_placeholder: "ספר לנו מה אתה מחפש...",
+    input_notes: "הערות מיוחדות (רשות)"
   }
 };
 
@@ -525,13 +805,13 @@ const CURRENCY_CONVERSION = {
   INR: { symbol: '₹', rate: 1.0 },
   USD: { symbol: '$', rate: 0.012 },
   EUR: { symbol: '€', rate: 0.011 },
-  AED: { symbol: 'AED', rate: 0.044 },
-  SAR: { symbol: 'SAR', rate: 0.045 },
-  QAR: { symbol: 'QAR', rate: 0.044 },
-  KWD: { symbol: 'KWD', rate: 0.0037 },
-  OMR: { symbol: 'OMR', rate: 0.0046 },
-  BHD: { symbol: 'BHD', rate: 0.0045 },
-  EGP: { symbol: 'EGP', rate: 0.37 }
+  DKK: { symbol: 'kr', rate: 0.068 },
+  GBP: { symbol: '£', rate: 0.0078 },
+  CAD: { symbol: '$', rate: 0.0146 },
+  BRL: { symbol: 'R$', rate: 0.0536 },
+  AUD: { symbol: '$', rate: 0.0149 },
+  NZD: { symbol: '$', rate: 0.0178 },
+  ILS: { symbol: '₪', rate: 0.0316 }
 };
 
 // ── Translation & Currency Helpers ───────────────────────────
@@ -542,8 +822,8 @@ function t(str) {
 }
 
 function formatPrice(inrPrice) {
-  const curr = localStorage.getItem('site-currency') || 'INR';
-  const conf = CURRENCY_CONVERSION[curr] || CURRENCY_CONVERSION.INR;
+  const curr = localStorage.getItem('site-currency') || 'GBP';
+  const conf = CURRENCY_CONVERSION[curr] || CURRENCY_CONVERSION.GBP;
   const converted = Math.round(inrPrice * conf.rate);
   
   if (curr === 'INR') {
@@ -552,6 +832,20 @@ function formatPrice(inrPrice) {
     return `$${converted.toLocaleString('en-US')}`;
   } else if (curr === 'EUR') {
     return `€${converted.toLocaleString('de-DE')}`;
+  } else if (curr === 'GBP') {
+    return `£${converted.toLocaleString('en-GB')}`;
+  } else if (curr === 'DKK') {
+    return `kr. ${converted.toLocaleString('da-DK')}`;
+  } else if (curr === 'CAD') {
+    return `CA$ ${converted.toLocaleString('en-CA')}`;
+  } else if (curr === 'AUD') {
+    return `A$ ${converted.toLocaleString('en-AU')}`;
+  } else if (curr === 'NZD') {
+    return `NZ$ ${converted.toLocaleString('en-NZ')}`;
+  } else if (curr === 'BRL') {
+    return `R$ ${converted.toLocaleString('pt-BR')}`;
+  } else if (curr === 'ILS') {
+    return `₪ ${converted.toLocaleString('he-IL')}`;
   } else {
     return `${conf.symbol} ${converted.toLocaleString()}`;
   }
@@ -559,7 +853,7 @@ function formatPrice(inrPrice) {
 
 function translateStaticElements() {
   const lang = localStorage.getItem('site-lang') || 'en';
-  document.documentElement.dir = (lang === 'ar') ? 'rtl' : 'ltr';
+  document.documentElement.dir = (lang === 'ar' || lang === 'he') ? 'rtl' : 'ltr';
   document.documentElement.lang = lang;
 
   document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -593,7 +887,7 @@ window.changeLanguage = function(langCode) {
   if (currentCollection) {
     openCollection(currentCollection.id);
   }
-  renderCart();
+  updateCartUI();
 };
 
 window.changeCurrency = function(currencyCode) {
@@ -607,7 +901,7 @@ window.changeCurrency = function(currencyCode) {
   if (currentCollection) {
     openCollection(currentCollection.id);
   }
-  renderCart();
+  updateCartUI();
 };
 
 async function initCurrencyAndLocation() {
@@ -621,7 +915,8 @@ async function initCurrencyAndLocation() {
     window.changeLanguage(lang);
   }
 
-  if (curr) {
+  const supportedCurrencies = ['DKK', 'GBP', 'CAD', 'BRL', 'AUD', 'NZD', 'ILS'];
+  if (curr && supportedCurrencies.includes(curr)) {
     window.changeCurrency(curr);
   } else {
     try {
@@ -630,28 +925,28 @@ async function initCurrencyAndLocation() {
         const data = await res.json();
         const country = data.countryCode;
         const apiCurrency = data.currency ? data.currency.code : '';
-        let detected = 'USD';
-        if (country === 'IN') {
-          detected = 'INR';
-        } else if (['DE', 'FR'].includes(country) || apiCurrency === 'EUR') {
-          detected = 'EUR';
-        } else if (['AE', 'SA', 'QA', 'KW', 'OM', 'BH', 'EG'].includes(country) || ['AED', 'SAR', 'QAR', 'KWD', 'OMR', 'BHD', 'EGP'].includes(apiCurrency)) {
-          if (CURRENCY_CONVERSION[apiCurrency]) {
-            detected = apiCurrency;
-          } else if (country === 'AE') {
-            detected = 'AED';
-          } else if (country === 'SA') {
-            detected = 'SAR';
-          } else {
-            detected = 'AED';
-          }
+        let detected = 'GBP';
+        if (country === 'DK') {
+          detected = 'DKK';
+        } else if (country === 'GB' || apiCurrency === 'GBP') {
+          detected = 'GBP';
+        } else if (country === 'CA' || apiCurrency === 'CAD') {
+          detected = 'CAD';
+        } else if (country === 'BR' || apiCurrency === 'BRL') {
+          detected = 'BRL';
+        } else if (country === 'AU' || apiCurrency === 'AUD') {
+          detected = 'AUD';
+        } else if (country === 'NZ' || apiCurrency === 'NZD') {
+          detected = 'NZD';
+        } else if (country === 'IL' || apiCurrency === 'ILS') {
+          detected = 'ILS';
         }
         window.changeCurrency(detected);
       } else {
-        window.changeCurrency('USD');
+        window.changeCurrency('GBP');
       }
     } catch (e) {
-      window.changeCurrency('USD');
+      window.changeCurrency('GBP');
     }
   }
 }
@@ -659,108 +954,126 @@ async function initCurrencyAndLocation() {
 // ── Product Database ─────────────────────────────────────────
 const COLLECTIONS = [
   {
-    id: 'pickles',
-    name: 'Artisan Pickles & Preserves',
-    tagline: 'Age-old Wayanad recipes, preserved with love',
-    icon: '🫙',
-    image: 'assets/images/mango_pickle_jar.png',
-    description: 'Handcrafted in small batches using traditional recipes passed down through generations of Wayanad households.',
-    products: [
-      { id: 'p1', name: 'Mango Preserves', price: 320, image: 'assets/images/v4_mango_pickle.png', desc: 'Raw Wayanad mango slow-cured in aromatic spice brine', weight: '250g', badge: 'Bestseller' },
-      { id: 'p2', name: "Veg Pickle's", price: 280, image: 'assets/images/v4_luxury_box.png', desc: 'Mixed seasonal vegetables pickled in mustard oil & spices', weight: '300g', badge: '' },
-      { id: 'p3', name: 'Traditional Wayanad Preserves', price: 350, image: 'assets/images/v4_luxury_box.png', desc: 'Authentic thokku-style preserve using heirloom varieties', weight: '200g', badge: 'Heritage' }
-    ]
-  },
-  {
     id: 'spices',
-    name: 'Exotic Spice Collection',
-    tagline: 'From the spice gardens of Wayanad & Idukki',
+    name: 'Wayanad Single-Origin Spices',
+    tagline: 'Single-estate spices, hand-selected from mist-covered plantations',
     icon: '🌿',
     image: 'assets/images/v4_spices.png',
-    description: 'Single-estate spices, hand-selected from the high-altitude gardens of Wayanad. Pure, potent, and unblended.',
+    description: 'Pure, potent, and unblended single-estate spices from the high-altitude spice belts of Wayanad.',
     products: [
-      { id: 'p4', name: 'Green Cardamom [8mm+]', price: 890, image: 'assets/images/spice_packaging.png', desc: 'Premium large-pod cardamom, hand-sorted from Idukki', weight: '100g', badge: 'Grade A' },
-      { id: 'p5', name: 'Black Pepper', price: 420, image: 'assets/images/v4_luxury_box.png', desc: 'Tellicherry pepper — bold, pungent, earthy', weight: '200g', badge: '' },
-      { id: 'p6', name: 'Curry Spice Blend', price: 360, image: 'assets/images/v4_luxury_box.png', desc: 'House-ground Wayanad curry masala with 14 spices', weight: '150g', badge: 'Exclusive' },
-      { id: 'p7', name: 'Microgreens Powder', price: 480, image: 'assets/images/v4_luxury_box.png', desc: 'Freeze-dried moringa & spirulina microgreens blend', weight: '80g', badge: 'Superfood' }
+      { id: 'p_spices_1', name: 'Wayanad White Pepper', price: 480, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad White Pepper.png', desc: 'Premium rare white pepper berries, hand-harvested and washed in natural spring water', weight: '150g', badge: 'Rare' },
+      { id: 'p_spices_2', name: 'Wayanad Black Pepper Reserve', price: 420, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Black Pepper Reserve.png', desc: 'Bold, pungent Tellicherry black pepper with high piperine content', weight: '200g', badge: 'Bestseller' },
+      { id: 'p_spices_3', name: 'Wayanad Bourbon Vanilla Beans', price: 950, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Bourbon Vanilla Beans.png', desc: 'Plump, aromatic gourmet bourbon vanilla pods cured to perfection', weight: '3 beans', badge: 'Premium' },
+      { id: 'p_spices_4', name: 'Wayanad Hand Picked Green Cardamom', price: 890, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Hand Picked Green Cardamom.png', desc: 'Extra jumbo 8mm+ green cardamom pods, bursting with essential oils', weight: '100g', badge: 'Grade A' },
+      { id: 'p_spices_5', name: 'Wayanad Golden Turmeric', price: 290, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Golden Turmeric.png', desc: 'High-curcumin heirloom turmeric powder, stone-ground and aromatic', weight: '200g', badge: '' },
+      { id: 'p_spices_6', name: 'Wayanad Sun Dried Ginger', price: 320, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Sun Dried Ginger.png', desc: 'Solar-dried whole ginger rhizomes, sharp and warm', weight: '150g', badge: '' },
+      { id: 'p_spices_7', name: 'Wayanad Cardamom Vanilla Estate Blend', price: 680, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Cardamom Vanilla Estate Blend.png', desc: 'Exquisite infusion of crushed cardamom and real vanilla bean pieces', weight: '100g', badge: 'Signature' }
     ]
   },
   {
-    id: 'sundried',
-    name: 'Sun-Cured Delicacies',
-    tagline: 'Preserved by the Wayanad sun, eaten through the year',
-    icon: '☀️',
-    image: 'assets/images/sundried_packaging.png',
-    description: 'Traditional sun-drying is an ancient Wayanad art. Each piece retains the full depth of tropical flavour — naturally concentrated.',
+    id: 'rice',
+    name: 'Wayanad Heritage Rice',
+    tagline: 'Traditional organic grains, cultivated in heritage paddy fields',
+    icon: '🌾',
+    image: 'assets/images/Wayanad Heritage Rice/Gandhakasala Fragrant Rice.png',
+    description: 'Heirloom rice varieties grown in the unique wet-paddy ecosystems of Wayanad using traditional organic practices.',
     products: [
-      { id: 'p8', name: 'Sun-Dried Jackfruit', price: 380, image: 'assets/images/v4_jackfruit.png', desc: 'Slow solar-dried chakka — chewy, caramel-sweet, tropical', weight: '200g', badge: 'Traditional' },
-      { id: 'p9', name: 'Sun-Dried Tapioca', price: 220, image: 'assets/images/v4_luxury_box.png', desc: 'Crispy kappa chips, sun-dried and spice dusted', weight: '250g', badge: '' },
-      { id: 'p10', name: 'Sun-Dried Mango', price: 340, image: 'assets/images/v4_mango_pickle.png', desc: 'Tart Alphonso mango slices dried in tropical sunlight', weight: '150g', badge: 'Seasonal' }
+      { id: 'p_rice_1', name: 'Gandhakasala Fragrant Rice', price: 180, image: 'assets/images/Wayanad Heritage Rice/Gandhakasala Fragrant Rice.png', desc: 'Highly aromatic, short-grain heritage rice, perfect for biryanis and special feasts', weight: '1kg', badge: 'Popular' },
+      { id: 'p_rice_2', name: 'Jeerakasala Aromatic Rice', price: 170, image: 'assets/images/Wayanad Heritage Rice/Jeerakasala Aromatic Rice.png', desc: 'Traditional small-grain scented rice, rich in taste and heritage', weight: '1kg', badge: '' },
+      { id: 'p_rice_3', name: 'Rakthashali Ancient Red Rice', price: 260, image: 'assets/images/Wayanad Heritage Rice/Rakthashali Ancient Red Rice.png', desc: 'Rare medicinal red rice known for high nutrient content and wellness properties', weight: '1kg', badge: 'Medicinal' },
+      { id: 'p_rice_4', name: 'Bamboo Rice', price: 390, image: 'assets/images/Wayanad Heritage Rice/Bamboo Rice.png', desc: 'Rare seed harvested from flowering bamboo forests, rich in proteins and low glycemic index', weight: '500g', badge: 'Rare' }
+    ]
+  },
+  {
+    id: 'coffee_tea',
+    name: 'Wayanad Estate Coffee & Tea',
+    tagline: 'Shade-grown coffee and high-grown tea from the misty heights',
+    icon: '☕',
+    image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Arabica Estate Reserve.png',
+    description: 'Exceptional shade-grown coffees and premium orthodox teas, cultivated in harmony with nature at high altitudes.',
+    products: [
+      { id: 'p_coffee_1', name: 'Wayanad Arabica Estate Reserve', price: 580, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Arabica Estate Reserve.png', desc: 'Single-estate medium roast Arabica with chocolate and caramel notes', weight: '250g', badge: 'Reserve' },
+      { id: 'p_coffee_2', name: 'Wayanad Robusta Bold Roast', price: 480, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Robusta Bold Roast coffee.png', desc: 'High-grade dark roast Robusta, full-bodied with a rich crema and low acidity', weight: '250g', badge: 'Bold' },
+      { id: 'p_coffee_3', name: 'Wayanad Estate Ground Coffee', price: 450, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Estate Ground Coffee.png', desc: 'Freshly ground blend of premium Arabica and Robusta, perfect for filter coffee', weight: '250g', badge: '' },
+      { id: 'p_coffee_4', name: 'Wayanad Green Coffee Beans [Robusta, Arabica Estate]', price: 390, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Green Coffee Beans.png', desc: 'Raw, unroasted green coffee beans rich in antioxidants for weight wellness', weight: '250g', badge: 'Wellness' },
+      { id: 'p_tea_1', name: 'Wayanad High Grown Estate Tea', price: 290, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad High Grown Estate Tea.png', desc: 'Orthodox whole leaf black tea from high-altitude mist-covered tea gardens', weight: '200g', badge: '' }
     ]
   },
   {
     id: 'snacks',
-    name: 'Gourmet Snack Selection',
-    tagline: 'Wayanad\'s beloved snacks, elevated for the connoisseur',
+    name: 'Wayanad Artisan Snacks',
+    tagline: 'Beloved local snacks, vacuum-fried and elevated',
     icon: '🍌',
-    image: 'assets/images/v4_banana_chips.png',
-    description: 'Classic Wayanad snacks crafted with heritage ingredients. Each bite carries the warmth of a traditional Wayanad kitchen.',
+    image: 'assets/images/Wayanad Artisan Snacks/Vacuum Fried Nendran Banana Chips.png',
+    description: 'Traditional snacks prepared using heirloom recipes and premium ingredients, vacuum-fried to retain crispness and nutrition with less oil.',
     products: [
-      { id: 'p11', name: 'Banana Chips', price: 260, image: 'assets/images/v4_banana_chips.png', desc: 'Wafer-thin Nendran banana chips fried in coconut oil', weight: '300g', badge: 'Bestseller' },
-      { id: 'p12', name: 'Tapioca Chips', price: 220, image: 'assets/images/v4_luxury_box.png', desc: 'Crispy kappa chips seasoned with rock salt & chilli', weight: '300g', badge: '' },
-      { id: 'p13', name: 'Avalose Powder', price: 290, image: 'assets/images/v4_luxury_box.png', desc: 'Roasted rice-coconut powder, a traditional Wayanad sweet', weight: '250g', badge: 'Heritage' }
+      { id: 'p_snacks_1', name: 'Estate Vacuum Fried Nendran Banana Chips', price: 290, image: 'assets/images/Wayanad Artisan Snacks/Vacuum Fried Nendran Banana Chips.png', desc: 'Crispy vacuum-fried local Nendran banana chips in pure coconut oil', weight: '200g', badge: 'Vacuum Fried' },
+      { id: 'p_snacks_2', name: 'Estate Vacuum Fried Jackfruit Chips', price: 340, image: 'assets/images/Wayanad Artisan Snacks/Vacuum Fried Jackfruit Chips.png', desc: 'Sweet and crunchy vacuum-fried ripe jackfruit slices, healthy and oil-light', weight: '150g', badge: 'New' },
+      { id: 'p_snacks_3', name: 'Estate Banana Chips', price: 220, image: 'assets/images/v4_banana_chips.png', desc: 'Wafer-thin banana chips fried in traditional Kerala wood-pressed coconut oil', weight: '250g', badge: 'Traditional' },
+      { id: 'p_snacks_4', name: 'Estate Tapioca Chips', price: 180, image: 'assets/images/Wayanad Artisan Snacks/Tapioca Chips.png', desc: 'Crispy tapioca strips seasoned with local red chillies and rock salt', weight: '250g', badge: '' },
+      { id: 'p_snacks_5', name: 'Avalose Bites', price: 240, image: 'assets/images/Wayanad Artisan Snacks/Avalose Bites.png', desc: 'Bite-sized traditional roasted rice-coconut sweet balls infused with cardamom', weight: '200g', badge: 'Heritage' },
+      { id: 'p_snacks_6', name: 'Roasted Cashews', price: 420, image: 'assets/images/Wayanad Artisan Snacks/Roasted Cashews.png', desc: 'Slow-roasted jumbo cashews tossed in sea salt and native pepper', weight: '200g', badge: '' }
     ]
   },
   {
-    id: 'hampers',
-    name: 'Luxury Gift Hampers',
-    tagline: 'Curated Wayanad gifting for those who appreciate the finest',
+    id: 'gifts',
+    name: 'Wayanad Gift Collections',
+    tagline: 'Curated gift sets packaged with luxury gold silk ribbon',
     icon: '🎁',
     image: 'assets/images/v4_hamper.png',
-    description: 'Elegantly curated hampers celebrating the richness of Wayanad. Each box is handpacked and tied with signature gold silk ribbon.',
+    description: 'Exquisitely packaged luxury boxes and baskets, bringing the finest tastes and crafts of Wayanad to your loved ones.',
     products: [
-      { id: 'p14', name: 'Spice Collection Box', price: 1890, image: 'assets/images/v4_spices.png', desc: 'Curated set of 4 premium single-estate spices', weight: 'Set of 4', badge: 'Gift Ready' },
-      { id: 'p15', name: 'Snack Combo Box', price: 1490, image: 'assets/images/v4_banana_chips.png', desc: 'Assorted Wayanad snack collection in a signature box', weight: '5 items', badge: '' },
-      { id: 'p16', name: 'Premium Wayanad Hamper', price: 3490, image: 'assets/images/v4_luxury_box.png', desc: 'The ultimate Wayanad luxury hamper — 12 curated items', weight: '12 items', badge: 'Luxury' }
+      { id: 'p_gifts_1', name: 'Estate Coffee Gift Set', price: 1490, image: 'assets/images/hamper_packaging.png', desc: 'Premium Arabica ground coffee, French Press brewer, and two ceramic mugs in a wooden box', weight: '1 set', badge: 'Gift Box' },
+      { id: 'p_gifts_2', name: 'Single-Origin Spice Gift Box', price: 1890, image: 'assets/images/hamper_packaging.png', desc: 'An elegant gift box containing 4 premium single-estate spices in brass jars', weight: '1 set', badge: 'Bestseller' },
+      { id: 'p_gifts_3', name: 'Estate Spice Collection Box', price: 1290, image: 'assets/images/hamper_packaging.png', desc: 'Curated collection of 6 essential spices in a reusable handcrafted paper box', weight: '1 set', badge: '' },
+      { id: 'p_gifts_4', name: 'Estate Snack Combo Box', price: 1090, image: 'assets/images/v4_hamper.png', desc: 'Assortment of our best banana, tapioca, and jackfruit chips in a luxury carton', weight: '1 set', badge: '' },
+      { id: 'p_gifts_5', name: 'Estate Handcrafted Bamboo Gift Set', price: 2490, image: 'assets/images/hamper_packaging.png', desc: 'Luxury hamper with bamboo homeware, spices, and coffee packaged in a woven bamboo basket', weight: '1 set', badge: 'Luxury' },
+      { id: 'p_gifts_6', name: 'Wayanad Signature Curry Set', price: 990, image: 'assets/images/hamper_packaging.png', desc: 'Curry spice blends, traditional clay pot, and step-by-step recipe booklet', weight: '1 set', badge: 'New' }
+    ]
+  },
+  {
+    id: 'eco_luxury',
+    name: 'Wayanad Eco Luxury',
+    tagline: 'Artisan crafts in sustainable bamboo, coconut shell, and vetiver',
+    icon: '🎋',
+    image: 'assets/images/ecoliving_packaging.png',
+    description: 'Eco-friendly, handcrafted homeware and lifestyle goods made by local Wayanad artisans using natural fibers.',
+    products: [
+      { id: 'p_eco_1', name: 'Handcrafted Bamboo Homeware', price: 680, image: 'assets/images/ecoliving_packaging.png', desc: 'Woven bamboo baskets, fruit bowls, and organizer trays crafted by hand', weight: 'Assorted', badge: 'Artisan' },
+      { id: 'p_eco_2', name: 'Coconut Shell Artisanware', price: 380, image: 'assets/images/ecoliving_packaging.png', desc: 'Polished coconut shell bowls and spoons, natural, organic, and reusable', weight: 'Set of 2', badge: '' },
+      { id: 'p_eco_3', name: 'Ramacham Vetiver Cooling Mat', price: 1200, image: 'assets/images/v4_vetiver.png', desc: 'Cooling mat woven from Ramacham (vetiver) roots, giving a natural earthy aroma', weight: '1 unit', badge: 'Bestseller' },
+      { id: 'p_eco_4', name: 'Bamboo Kitchen Essentials', price: 490, image: 'assets/images/ecoliving_packaging.png', desc: 'Spatulas, ladles, and tongs crafted from high-durability native bamboo', weight: 'Set of 4', badge: '' }
     ]
   },
   {
     id: 'harvest',
-    name: 'Fresh Harvest Selection',
-    tagline: 'From Wayanad\'s groves to your home, farm-fresh',
-    icon: '🥥',
-    image: 'assets/images/v4_oil.png',
-    description: 'Seasonal harvests from our partner farms in Thrissur and Ernakulam, delivered with care and minimal processing.',
+    name: 'Wayanad Fresh Harvest',
+    tagline: 'Forest honey, virgin oils, and natural local produce',
+    icon: '🍯',
+    image: 'assets/images/Wayanad Fresh Harvest/Wayanad Honey.png',
+    description: 'Pure, minimally processed agricultural produce harvested fresh from forest ranges and partner farms.',
     products: [
-      { id: 'p17', name: 'Cold Pressed Coconut Oil', price: 680, image: 'assets/images/v4_oil.png', desc: 'Wood-pressed virgin coconut oil from Thrissur farms', weight: '500ml', badge: 'Pure' },
-      { id: 'p18', name: 'Fresh Fruits', price: 580, image: 'assets/images/v4_luxury_box.png', desc: 'Seasonal rambutan & avocado from high-altitude gardens', weight: '1kg', badge: 'Seasonal' },
-      { id: 'p19', name: 'Herbal Plants', price: 390, image: 'assets/images/v4_luxury_box.png', desc: 'Curated medicinal herb saplings — tulsi, moringa, curry leaf', weight: '3 plants', badge: '' }
+      { id: 'p_harvest_1', name: 'Wayanad Honey', price: 450, image: 'assets/images/Wayanad Fresh Harvest/Wayanad Honey.png', desc: 'Wild forest honey collected by tribal communities from deep Wayanad reserves', weight: '500g', badge: '100% Pure' },
+      { id: 'p_harvest_2', name: 'Cold Pressed Virgin Coconut Oil', price: 390, image: 'assets/images/Wayanad Fresh Harvest/Virgin Coconut Oil.png', desc: 'Raw, cold-pressed virgin coconut oil extracted from fresh coconuts without heat', weight: '500ml', badge: 'Organic' },
+      { id: 'p_harvest_3', name: 'Pure Wayanad Tamarind', price: 180, image: 'assets/images/Wayanad Fresh Harvest/Pure Wayanad Tamarind.png', desc: 'Traditionally cured and deseeded sour tamarind, essential for Kerala curries', weight: '250g', badge: '' },
+      { id: 'p_harvest_4', name: 'Wayanad Garcinia', price: 220, image: 'assets/images/Wayanad Fresh Harvest/Wayanad Garcinia.png', desc: 'Sun-dried Garcinia Cambogia (Kudampuli) smoked for an authentic wood-smoke aroma', weight: '200g', badge: '' },
+      { id: 'p_harvest_5', name: 'Wayanad Herbal Produce', price: 350, image: 'assets/images/Wayanad Fresh Harvest/Wayanad Herbal Produce.png', desc: 'Dried herbal roots and leaves for traditional Ayurvedic wellness teas', weight: '150g', badge: '' },
+      { id: 'p_harvest_6', name: 'Wayanad Avocado Concentrate', price: 680, image: 'assets/images/Wayanad Fresh Harvest/Avocado Concentrate.png', desc: 'Rich, smooth pulp concentrate made from premium butter avocados', weight: '500ml', badge: 'New' }
     ]
   },
   {
-    id: 'ecoliving',
-    name: 'Eco-Luxury Living',
-    tagline: 'Bamboo & vetiver craftsmanship from Wayanad artisans',
-    icon: '🌾',
-    image: 'assets/images/ecoliving_packaging.png',
-    description: 'Artisan-made products from sustainable bamboo and Ramacham vetiver, crafted by master weavers in rural Wayanad.',
-    products: [
-      { id: 'p20', name: 'Vetiver [Ramacham] Products', price: 520, image: 'assets/images/v4_vetiver.png', desc: 'Hand-crafted Ramacham mats, sachets, and bath products', weight: 'Assorted', badge: 'Artisan' },
-      { id: 'p21', name: 'Bamboo Handcrafted Items', price: 680, image: 'assets/images/v4_luxury_box.png', desc: 'Sustainable hand-woven bamboo baskets & utility items', weight: 'Assorted', badge: 'Eco' }
-    ]
-  },
-  {
-    id: 'fruits',
-    name: 'Premium Exotic Fruits',
-    tagline: 'Hand-plucked from the mist-covered orchards of Wayanad',
+    id: 'wellness',
+    name: 'Wayanad Wellness',
+    tagline: 'Superfood powders and natural wellness boosters',
     icon: '🥑',
-    image: 'assets/images/v4_exotic_fruits.png',
-    description: 'Farm-fresh, chemical-free exotic fruits grown in high-altitude orchards, harvested at peak maturity and packed carefully to preserve freshness.',
+    image: 'assets/images/Wayanad wellness/Avocado Powder.png',
+    description: 'Nutrient-rich, freeze-dried superfood powders processed with care to preserve complete bio-active compounds.',
     products: [
-      { id: 'p22', name: 'Premium Avocado', price: 380, image: 'assets/images/v4_avocado.png', desc: 'Buttery, rich Wayanad avocados, perfect for spreads and shakes', weight: '1kg', badge: 'Farm Fresh' },
-      { id: 'p23', name: 'Fresh Rambutan', price: 290, image: 'assets/images/v4_rambutan.png', desc: 'Juicy, sweet rambutans with a tender, translucent pulp', weight: '500g', badge: 'Seasonal' },
-      { id: 'p24', name: 'Sweet Lychee', price: 320, image: 'assets/images/v4_lychee.png', desc: 'Fragrant and luscious pink lychees, handpicked at dawn', weight: '500g', badge: 'Fresh Crop' },
-      { id: 'p25', name: 'Caramel Sapodilla [Chikoo]', price: 240, image: 'assets/images/v4_sapodilla.png', desc: 'Sweet, malty sapodillas with a smooth caramel texture', weight: '1kg', badge: '' }
+      { id: 'p_well_1', name: 'Fine Coconut Powder', price: 190, image: 'assets/images/Wayanad wellness/Coconut Powder.png', desc: 'Finely ground unsweetened coconut flour, gluten-free and low-carb', weight: '250g', badge: '' },
+      { id: 'p_well_2', name: 'Jackfruit Superfood Powder', price: 480, image: 'assets/images/Wayanad wellness/Jackfruit Superfood Powder.png', desc: 'Freeze-dried green jackfruit powder, a highly nutritious glycemic regulator', weight: '200g', badge: 'Superfood' },
+      { id: 'p_well_3', name: 'Pure Moringa Leaf Powder', price: 290, image: 'assets/images/Wayanad wellness/Moringa Leaf Powder.png', desc: 'Vibrant green drumstick leaf powder, rich in iron, calcium, and vitamins', weight: '150g', badge: 'Organic' },
+      { id: 'p_well_4', name: 'Avocado Powder', price: 640, image: 'assets/images/Wayanad wellness/Avocado Powder.png', desc: 'Dehydrated premium avocado powder, rich in healthy fats and fiber', weight: '150g', badge: 'Premium' },
+      { id: 'p_well_5', name: 'Estate Herbal products powder', price: 380, image: 'assets/images/v4_exotic_fruits.png', desc: 'Wellness powder blend of wild turmeric, ginger, and native tulsi', weight: '200g', badge: '' }
     ]
   }
 ];
@@ -801,10 +1114,14 @@ function renderHomepage() {
 }
 
 // ── Open Collection Page (SPA Route) ────────────────────────
-function openCollection(id) {
+function openCollection(id, isPopState = false) {
   const col = COLLECTIONS.find(c => c.id === id);
   if (!col) return;
   currentCollection = col;
+
+  if (!isPopState) {
+    window.history.pushState({ view: 'collection', collectionId: id }, '', `#collection-${id}`);
+  }
 
   // Switch views
   homeView().style.display = 'none';
@@ -842,12 +1159,25 @@ function openCollection(id) {
 }
 
 // ── Close Collection Page / Go Back ─────────────────────────
-function closeCollection() {
+function closeCollection(isPopState = false) {
+  if (!isPopState && window.history.state && window.history.state.view === 'collection') {
+    window.history.back();
+    return;
+  }
   collectionView().style.display = 'none';
   homeView().style.display = 'block';
   window.scrollTo({ top: 0, behavior: 'smooth' });
   currentCollection = null;
 }
+
+// Listen to popstate to handle back button
+window.addEventListener('popstate', (event) => {
+  if (event.state && event.state.view === 'collection') {
+    openCollection(event.state.collectionId, true);
+  } else {
+    closeCollection(true);
+  }
+});
 
 // Expose globally for inline onclick and keyboard handlers
 window.openCollection = openCollection;
@@ -1094,9 +1424,15 @@ document.addEventListener('DOMContentLoaded', () => {
   initCurrencyAndLocation();
   updateCartUI();
 
-  // Ensure home visible, collection hidden on load
-  homeView().style.display = 'block';
-  collectionView().style.display = 'none';
+  // Handle initial routing based on hash
+  const hash = window.location.hash;
+  if (hash && hash.startsWith('#collection-')) {
+    const colId = hash.replace('#collection-', '');
+    openCollection(colId, true);
+  } else {
+    homeView().style.display = 'block';
+    collectionView().style.display = 'none';
+  }
 
   // Scroll listener
   window.addEventListener('scroll', handleScroll, { passive: true });
