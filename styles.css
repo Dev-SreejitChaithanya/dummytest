@@ -1745,6 +1745,7 @@ p {
   #site-header .lang-select-wrapper,
   #site-header .currency-select-wrapper,
   #site-header a[aria-label="WhatsApp us"],
+  #site-header a[aria-label="Signal us"],
   #site-header a[aria-label="Call us"] {
     display: none !important;
   }
