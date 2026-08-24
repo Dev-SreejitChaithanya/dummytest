@@ -1449,3 +1449,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+window.addEventListener('load', () => {
+  const video = document.getElementById('hero-video');
+  if (video) {
+    const source = document.createElement('source');
+    source.src = 'assets/WayanadBG.mp4';
+    source.type = 'video/mp4';
+    video.appendChild(source);
+    video.load();
+    video.play().catch(err => console.log('Autoplay deferred or blocked:', err));
+  }
+});
