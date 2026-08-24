@@ -1,0 +1,70 @@
+# Wayanadan Luxury Taste (Amaizing Taste)
+
+> Wayanad's premium storefront for heritage rice, wellness superfoods, estate coffee, artisan snacks, single-origin spices, and luxury hampers.
+
+## Store Context & Profile
+- **Website:** https://amaizingtaste.vercel.app/
+- **Description:** A premium storefront showcasing and selling the finest natural produce from Wayanad, Kerala, India. The store offers worldwide shipping and custom order placement via WhatsApp.
+- **Languages Supported:** English (EN), French (FR), German (DE), Spanish (ES), Danish (DA), Italian (IT), Portuguese (PT), Hebrew (HE), Arabic (AR).
+- **Currencies Supported:** INR (₹), USD ($), EUR (€), DKK (kr), GBP (£), CAD ($), BRL (R$), AUD ($), NZD ($), ILS (₪).
+
+## Product Collections & Catalog
+
+### 1. Heritage Rice
+Traditional and ancient grains sourced from Wayanad:
+- **Gandhakasala Fragrant Rice:** Highly aromatic local heritage grain.
+- **Jeerakasala Aromatic Rice:** Small-grain scented rice.
+- **Rakthashali Ancient Red Rice:** Rare medicinal red rice.
+- **Bamboo Rice:** Nutrient-rich wild seed collected from forest bamboo.
+
+### 2. Single-Origin Spices
+Premium spices grown on native estate farms:
+- **Wayanad Black Pepper Reserve:** Hand-picked bold black peppercorns.
+- **Wayanad Hand Picked Green Cardamom:** Extra large, high-grade pods.
+- **Wayanad White Pepper:** Fully ripe, decorticated pepper.
+- **Wayanad Golden Turmeric:** High-curcumin organic turmeric powder.
+- **Wayanad Sun Dried Ginger:** High-pungency dried ginger.
+- **Wayanad Bourbon Vanilla Beans:** Cured gourmet-quality vanilla pods.
+- **Wayanad Cardamom Vanilla Estate Blend:** Custom spice infusion.
+
+### 3. Estate Coffee & Tea
+Grown in high-altitude Wayanad plantations:
+- **Wayanad Arabica Estate Reserve:** Special single-origin Arabica coffee.
+- **Wayanad Robusta Bold Roast:** High-body Robusta coffee.
+- **Wayanad Estate Ground Coffee:** Pre-ground plantation blend.
+- **Wayanad Green Coffee Beans:** Raw unroasted beans for wellness.
+- **Wayanad High Grown Estate Tea:** CTC and orthodox leaf tea.
+
+### 4. Artisan Snacks
+Traditional Kerala snacks vacuum fried for freshness:
+- **Vacuum Fried Nendran Banana Chips:** Crispy banana chips made in coconut oil.
+- **Tapioca Chips:** Light, crunchy salted tapioca slices.
+- **Vacuum Fried Jackfruit Chips:** Sweet, crispy jackfruit slices.
+- **Roasted Cashews:** Lightly salted premium whole cashews.
+- **Avalose Bites:** Traditional roasted rice and coconut spheres.
+
+### 5. Fresh Harvest
+Pure, unprocessed farm produce:
+- **Wayanad Honey:** Wild forest honey collected by tribal communities.
+- **Virgin Coconut Oil:** Cold-pressed from fresh organic coconuts.
+- **Pure Wayanad Tamarind:** Tangy sun-dried seedless tamarind.
+- **Wayanad Garcinia:** Cured black tamarind (Kudampuli).
+- **Wayanad Herbal Produce & Avocado Concentrate.**
+
+### 6. Wellness Superfoods
+Nutrient-dense powders and fruit pulps:
+- **Avocado Powder & Pulp:** High-nutrient freeze-dried avocado.
+- **Jackfruit Superfood Powder:** Raw jackfruit flour for glycemic control.
+- **Moringa Leaf Powder:** Organic moringa leaf extract.
+- **Microgreens Powder:** Concentrated greens blend.
+- **Fruit Pulps & Squashes:** Passion Fruit, Chiku, Grape, and Strawberry concentrates.
+
+## Order Placement & Enquiry
+- **Shopping Cart System:** Users can add items, select their currency, fill in delivery details, and click "Send Order via WhatsApp" to finalize orders.
+- **Enquiry Form:** Available inside the hamburger menu for general product or bulk order inquiries.
+
+## Contact Channels
+- **WhatsApp / Phone:** +91 80780 20806
+- **Email:** info@amaizingtaste.com
+- **Signal:** AmaizingTaste.07
+- **Store Location:** Wayanad, Kerala, India

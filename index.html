@@ -116,7 +116,7 @@
   </header>
 
   <!-- Promotional Ticker -->
-  <div id="promo-ticker" aria-label="Promotional offers">
+  <div id="promo-ticker" role="region" aria-label="Promotional offers">
     <div class="ticker-track">
       <span>🌿 Free delivery on orders above ₹999</span>
       <span>✦</span>
@@ -142,7 +142,7 @@
   </div>
 
   <nav id="mobile-menu" role="navigation" aria-label="Mobile navigation">
-    <button class="cart-close" onclick="toggleMobileMenu()" style="align-self:flex-end; margin-bottom:1rem;">✕</button>
+    <button class="cart-close" onclick="toggleMobileMenu()" style="align-self:flex-end; margin-bottom:1rem;" aria-label="Close mobile menu">✕</button>
     <a href="#" onclick="toggleMobileMenu(); closeCollection(); return false;" data-i18n="nav_home">Home</a>
     <a href="#collections"
       onclick="toggleMobileMenu(); closeCollection(); document.getElementById('collections').scrollIntoView({behavior:'smooth'}); return false;" data-i18n="nav_collections">Collections</a>
