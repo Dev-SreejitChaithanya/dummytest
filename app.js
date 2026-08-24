@@ -958,16 +958,16 @@ const COLLECTIONS = [
     name: 'Wayanad Single-Origin Spices',
     tagline: 'Single-estate spices, hand-selected from mist-covered plantations',
     icon: '🌿',
-    image: 'assets/images/v4_spices.png',
+    image: 'assets/images/v4_spices.webp',
     description: 'Pure, potent, and unblended single-estate spices from the high-altitude spice belts of Wayanad.',
     products: [
-      { id: 'p_spices_1', name: 'Wayanad White Pepper', price: 480, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad White Pepper.png', desc: 'Premium rare white pepper berries, hand-harvested and washed in natural spring water', weight: '150g', badge: 'Rare' },
-      { id: 'p_spices_2', name: 'Wayanad Black Pepper Reserve', price: 420, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Black Pepper Reserve.png', desc: 'Bold, pungent Tellicherry black pepper with high piperine content', weight: '200g', badge: 'Bestseller' },
-      { id: 'p_spices_3', name: 'Wayanad Bourbon Vanilla Beans', price: 950, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Bourbon Vanilla Beans.png', desc: 'Plump, aromatic gourmet bourbon vanilla pods cured to perfection', weight: '3 beans', badge: 'Premium' },
-      { id: 'p_spices_4', name: 'Wayanad Hand Picked Green Cardamom', price: 890, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Hand Picked Green Cardamom.png', desc: 'Extra jumbo 8mm+ green cardamom pods, bursting with essential oils', weight: '100g', badge: 'Grade A' },
-      { id: 'p_spices_5', name: 'Wayanad Golden Turmeric', price: 290, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Golden Turmeric.png', desc: 'High-curcumin heirloom turmeric powder, stone-ground and aromatic', weight: '200g', badge: '' },
-      { id: 'p_spices_6', name: 'Wayanad Sun Dried Ginger', price: 320, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Sun Dried Ginger.png', desc: 'Solar-dried whole ginger rhizomes, sharp and warm', weight: '150g', badge: '' },
-      { id: 'p_spices_7', name: 'Wayanad Cardamom Vanilla Estate Blend', price: 680, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Cardamom Vanilla Estate Blend.png', desc: 'Exquisite infusion of crushed cardamom and real vanilla bean pieces', weight: '100g', badge: 'Signature' }
+      { id: 'p_spices_1', name: 'Wayanad White Pepper', price: 480, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad White Pepper.webp', desc: 'Premium rare white pepper berries, hand-harvested and washed in natural spring water', weight: '150g', badge: 'Rare' },
+      { id: 'p_spices_2', name: 'Wayanad Black Pepper Reserve', price: 420, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Black Pepper Reserve.webp', desc: 'Bold, pungent Tellicherry black pepper with high piperine content', weight: '200g', badge: 'Bestseller' },
+      { id: 'p_spices_3', name: 'Wayanad Bourbon Vanilla Beans', price: 950, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Bourbon Vanilla Beans.webp', desc: 'Plump, aromatic gourmet bourbon vanilla pods cured to perfection', weight: '3 beans', badge: 'Premium' },
+      { id: 'p_spices_4', name: 'Wayanad Hand Picked Green Cardamom', price: 890, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Hand Picked Green Cardamom.webp', desc: 'Extra jumbo 8mm+ green cardamom pods, bursting with essential oils', weight: '100g', badge: 'Grade A' },
+      { id: 'p_spices_5', name: 'Wayanad Golden Turmeric', price: 290, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Golden Turmeric.webp', desc: 'High-curcumin heirloom turmeric powder, stone-ground and aromatic', weight: '200g', badge: '' },
+      { id: 'p_spices_6', name: 'Wayanad Sun Dried Ginger', price: 320, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Sun Dried Ginger.webp', desc: 'Solar-dried whole ginger rhizomes, sharp and warm', weight: '150g', badge: '' },
+      { id: 'p_spices_7', name: 'Wayanad Cardamom Vanilla Estate Blend', price: 680, image: 'assets/images/Wayanad Single-Origin Spices/Wayanad Cardamom Vanilla Estate Blend.webp', desc: 'Exquisite infusion of crushed cardamom and real vanilla bean pieces', weight: '100g', badge: 'Signature' }
     ]
   },
   {
@@ -975,13 +975,13 @@ const COLLECTIONS = [
     name: 'Wayanad Heritage Rice',
     tagline: 'Traditional organic grains, cultivated in heritage paddy fields',
     icon: '🌾',
-    image: 'assets/images/Wayanad Heritage Rice/Gandhakasala Fragrant Rice.png',
+    image: 'assets/images/Wayanad Heritage Rice/Gandhakasala Fragrant Rice.webp',
     description: 'Heirloom rice varieties grown in the unique wet-paddy ecosystems of Wayanad using traditional organic practices.',
     products: [
-      { id: 'p_rice_1', name: 'Gandhakasala Fragrant Rice', price: 180, image: 'assets/images/Wayanad Heritage Rice/Gandhakasala Fragrant Rice.png', desc: 'Highly aromatic, short-grain heritage rice, perfect for biryanis and special feasts', weight: '1kg', badge: 'Popular' },
-      { id: 'p_rice_2', name: 'Jeerakasala Aromatic Rice', price: 170, image: 'assets/images/Wayanad Heritage Rice/Jeerakasala Aromatic Rice.png', desc: 'Traditional small-grain scented rice, rich in taste and heritage', weight: '1kg', badge: '' },
-      { id: 'p_rice_3', name: 'Rakthashali Ancient Red Rice', price: 260, image: 'assets/images/Wayanad Heritage Rice/Rakthashali Ancient Red Rice.png', desc: 'Rare medicinal red rice known for high nutrient content and wellness properties', weight: '1kg', badge: 'Medicinal' },
-      { id: 'p_rice_4', name: 'Bamboo Rice', price: 390, image: 'assets/images/Wayanad Heritage Rice/Bamboo Rice.png', desc: 'Rare seed harvested from flowering bamboo forests, rich in proteins and low glycemic index', weight: '500g', badge: 'Rare' }
+      { id: 'p_rice_1', name: 'Gandhakasala Fragrant Rice', price: 180, image: 'assets/images/Wayanad Heritage Rice/Gandhakasala Fragrant Rice.webp', desc: 'Highly aromatic, short-grain heritage rice, perfect for biryanis and special feasts', weight: '1kg', badge: 'Popular' },
+      { id: 'p_rice_2', name: 'Jeerakasala Aromatic Rice', price: 170, image: 'assets/images/Wayanad Heritage Rice/Jeerakasala Aromatic Rice.webp', desc: 'Traditional small-grain scented rice, rich in taste and heritage', weight: '1kg', badge: '' },
+      { id: 'p_rice_3', name: 'Rakthashali Ancient Red Rice', price: 260, image: 'assets/images/Wayanad Heritage Rice/Rakthashali Ancient Red Rice.webp', desc: 'Rare medicinal red rice known for high nutrient content and wellness properties', weight: '1kg', badge: 'Medicinal' },
+      { id: 'p_rice_4', name: 'Bamboo Rice', price: 390, image: 'assets/images/Wayanad Heritage Rice/Bamboo Rice.webp', desc: 'Rare seed harvested from flowering bamboo forests, rich in proteins and low glycemic index', weight: '500g', badge: 'Rare' }
     ]
   },
   {
@@ -989,14 +989,14 @@ const COLLECTIONS = [
     name: 'Wayanad Estate Coffee & Tea',
     tagline: 'Shade-grown coffee and high-grown tea from the misty heights',
     icon: '☕',
-    image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Arabica Estate Reserve.png',
+    image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Arabica Estate Reserve.webp',
     description: 'Exceptional shade-grown coffees and premium orthodox teas, cultivated in harmony with nature at high altitudes.',
     products: [
-      { id: 'p_coffee_1', name: 'Wayanad Arabica Estate Reserve', price: 580, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Arabica Estate Reserve.png', desc: 'Single-estate medium roast Arabica with chocolate and caramel notes', weight: '250g', badge: 'Reserve' },
-      { id: 'p_coffee_2', name: 'Wayanad Robusta Bold Roast', price: 480, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Robusta Bold Roast coffee.png', desc: 'High-grade dark roast Robusta, full-bodied with a rich crema and low acidity', weight: '250g', badge: 'Bold' },
-      { id: 'p_coffee_3', name: 'Wayanad Estate Ground Coffee', price: 450, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Estate Ground Coffee.png', desc: 'Freshly ground blend of premium Arabica and Robusta, perfect for filter coffee', weight: '250g', badge: '' },
-      { id: 'p_coffee_4', name: 'Wayanad Green Coffee Beans [Robusta, Arabica Estate]', price: 390, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Green Coffee Beans.png', desc: 'Raw, unroasted green coffee beans rich in antioxidants for weight wellness', weight: '250g', badge: 'Wellness' },
-      { id: 'p_tea_1', name: 'Wayanad High Grown Estate Tea', price: 290, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad High Grown Estate Tea.png', desc: 'Orthodox whole leaf black tea from high-altitude mist-covered tea gardens', weight: '200g', badge: '' }
+      { id: 'p_coffee_1', name: 'Wayanad Arabica Estate Reserve', price: 580, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Arabica Estate Reserve.webp', desc: 'Single-estate medium roast Arabica with chocolate and caramel notes', weight: '250g', badge: 'Reserve' },
+      { id: 'p_coffee_2', name: 'Wayanad Robusta Bold Roast', price: 480, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Robusta Bold Roast coffee.webp', desc: 'High-grade dark roast Robusta, full-bodied with a rich crema and low acidity', weight: '250g', badge: 'Bold' },
+      { id: 'p_coffee_3', name: 'Wayanad Estate Ground Coffee', price: 450, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Estate Ground Coffee.webp', desc: 'Freshly ground blend of premium Arabica and Robusta, perfect for filter coffee', weight: '250g', badge: '' },
+      { id: 'p_coffee_4', name: 'Wayanad Green Coffee Beans [Robusta, Arabica Estate]', price: 390, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Green Coffee Beans.webp', desc: 'Raw, unroasted green coffee beans rich in antioxidants for weight wellness', weight: '250g', badge: 'Wellness' },
+      { id: 'p_tea_1', name: 'Wayanad High Grown Estate Tea', price: 290, image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad High Grown Estate Tea.webp', desc: 'Orthodox whole leaf black tea from high-altitude mist-covered tea gardens', weight: '200g', badge: '' }
     ]
   },
   {
@@ -1004,15 +1004,15 @@ const COLLECTIONS = [
     name: 'Wayanad Artisan Snacks',
     tagline: 'Beloved local snacks, vacuum-fried and elevated',
     icon: '🍌',
-    image: 'assets/images/Wayanad Artisan Snacks/Vacuum Fried Nendran Banana Chips.png',
+    image: 'assets/images/Wayanad Artisan Snacks/Vacuum Fried Nendran Banana Chips.webp',
     description: 'Traditional snacks prepared using heirloom recipes and premium ingredients, vacuum-fried to retain crispness and nutrition with less oil.',
     products: [
-      { id: 'p_snacks_1', name: 'Estate Vacuum Fried Nendran Banana Chips', price: 290, image: 'assets/images/Wayanad Artisan Snacks/Vacuum Fried Nendran Banana Chips.png', desc: 'Crispy vacuum-fried local Nendran banana chips in pure coconut oil', weight: '200g', badge: 'Vacuum Fried' },
-      { id: 'p_snacks_2', name: 'Estate Vacuum Fried Jackfruit Chips', price: 340, image: 'assets/images/Wayanad Artisan Snacks/Vacuum Fried Jackfruit Chips.png', desc: 'Sweet and crunchy vacuum-fried ripe jackfruit slices, healthy and oil-light', weight: '150g', badge: 'New' },
-      { id: 'p_snacks_3', name: 'Estate Banana Chips', price: 220, image: 'assets/images/v4_banana_chips.png', desc: 'Wafer-thin banana chips fried in traditional Kerala wood-pressed coconut oil', weight: '250g', badge: 'Traditional' },
-      { id: 'p_snacks_4', name: 'Estate Tapioca Chips', price: 180, image: 'assets/images/Wayanad Artisan Snacks/Tapioca Chips.png', desc: 'Crispy tapioca strips seasoned with local red chillies and rock salt', weight: '250g', badge: '' },
-      { id: 'p_snacks_5', name: 'Avalose Bites', price: 240, image: 'assets/images/Wayanad Artisan Snacks/Avalose Bites.png', desc: 'Bite-sized traditional roasted rice-coconut sweet balls infused with cardamom', weight: '200g', badge: 'Heritage' },
-      { id: 'p_snacks_6', name: 'Roasted Cashews', price: 420, image: 'assets/images/Wayanad Artisan Snacks/Roasted Cashews.png', desc: 'Slow-roasted jumbo cashews tossed in sea salt and native pepper', weight: '200g', badge: '' }
+      { id: 'p_snacks_1', name: 'Estate Vacuum Fried Nendran Banana Chips', price: 290, image: 'assets/images/Wayanad Artisan Snacks/Vacuum Fried Nendran Banana Chips.webp', desc: 'Crispy vacuum-fried local Nendran banana chips in pure coconut oil', weight: '200g', badge: 'Vacuum Fried' },
+      { id: 'p_snacks_2', name: 'Estate Vacuum Fried Jackfruit Chips', price: 340, image: 'assets/images/Wayanad Artisan Snacks/Vacuum Fried Jackfruit Chips.webp', desc: 'Sweet and crunchy vacuum-fried ripe jackfruit slices, healthy and oil-light', weight: '150g', badge: 'New' },
+      { id: 'p_snacks_3', name: 'Estate Banana Chips', price: 220, image: 'assets/images/v4_banana_chips.webp', desc: 'Wafer-thin banana chips fried in traditional Kerala wood-pressed coconut oil', weight: '250g', badge: 'Traditional' },
+      { id: 'p_snacks_4', name: 'Estate Tapioca Chips', price: 180, image: 'assets/images/Wayanad Artisan Snacks/Tapioca Chips.webp', desc: 'Crispy tapioca strips seasoned with local red chillies and rock salt', weight: '250g', badge: '' },
+      { id: 'p_snacks_5', name: 'Avalose Bites', price: 240, image: 'assets/images/Wayanad Artisan Snacks/Avalose Bites.webp', desc: 'Bite-sized traditional roasted rice-coconut sweet balls infused with cardamom', weight: '200g', badge: 'Heritage' },
+      { id: 'p_snacks_6', name: 'Roasted Cashews', price: 420, image: 'assets/images/Wayanad Artisan Snacks/Roasted Cashews.webp', desc: 'Slow-roasted jumbo cashews tossed in sea salt and native pepper', weight: '200g', badge: '' }
     ]
   },
   {
@@ -1020,15 +1020,15 @@ const COLLECTIONS = [
     name: 'Wayanad Gift Collections',
     tagline: 'Curated gift sets packaged with luxury gold silk ribbon',
     icon: '🎁',
-    image: 'assets/images/v4_hamper.png',
+    image: 'assets/images/v4_hamper.webp',
     description: 'Exquisitely packaged luxury boxes and baskets, bringing the finest tastes and crafts of Wayanad to your loved ones.',
     products: [
-      { id: 'p_gifts_1', name: 'Estate Coffee Gift Set', price: 1490, image: 'assets/images/hamper_packaging.png', desc: 'Premium Arabica ground coffee, French Press brewer, and two ceramic mugs in a wooden box', weight: '1 set', badge: 'Gift Box' },
-      { id: 'p_gifts_2', name: 'Single-Origin Spice Gift Box', price: 1890, image: 'assets/images/hamper_packaging.png', desc: 'An elegant gift box containing 4 premium single-estate spices in brass jars', weight: '1 set', badge: 'Bestseller' },
-      { id: 'p_gifts_3', name: 'Estate Spice Collection Box', price: 1290, image: 'assets/images/hamper_packaging.png', desc: 'Curated collection of 6 essential spices in a reusable handcrafted paper box', weight: '1 set', badge: '' },
-      { id: 'p_gifts_4', name: 'Estate Snack Combo Box', price: 1090, image: 'assets/images/v4_hamper.png', desc: 'Assortment of our best banana, tapioca, and jackfruit chips in a luxury carton', weight: '1 set', badge: '' },
-      { id: 'p_gifts_5', name: 'Estate Handcrafted Bamboo Gift Set', price: 2490, image: 'assets/images/hamper_packaging.png', desc: 'Luxury hamper with bamboo homeware, spices, and coffee packaged in a woven bamboo basket', weight: '1 set', badge: 'Luxury' },
-      { id: 'p_gifts_6', name: 'Wayanad Signature Curry Set', price: 990, image: 'assets/images/hamper_packaging.png', desc: 'Curry spice blends, traditional clay pot, and step-by-step recipe booklet', weight: '1 set', badge: 'New' }
+      { id: 'p_gifts_1', name: 'Estate Coffee Gift Set', price: 1490, image: 'assets/images/hamper_packaging.webp', desc: 'Premium Arabica ground coffee, French Press brewer, and two ceramic mugs in a wooden box', weight: '1 set', badge: 'Gift Box' },
+      { id: 'p_gifts_2', name: 'Single-Origin Spice Gift Box', price: 1890, image: 'assets/images/hamper_packaging.webp', desc: 'An elegant gift box containing 4 premium single-estate spices in brass jars', weight: '1 set', badge: 'Bestseller' },
+      { id: 'p_gifts_3', name: 'Estate Spice Collection Box', price: 1290, image: 'assets/images/hamper_packaging.webp', desc: 'Curated collection of 6 essential spices in a reusable handcrafted paper box', weight: '1 set', badge: '' },
+      { id: 'p_gifts_4', name: 'Estate Snack Combo Box', price: 1090, image: 'assets/images/v4_hamper.webp', desc: 'Assortment of our best banana, tapioca, and jackfruit chips in a luxury carton', weight: '1 set', badge: '' },
+      { id: 'p_gifts_5', name: 'Estate Handcrafted Bamboo Gift Set', price: 2490, image: 'assets/images/hamper_packaging.webp', desc: 'Luxury hamper with bamboo homeware, spices, and coffee packaged in a woven bamboo basket', weight: '1 set', badge: 'Luxury' },
+      { id: 'p_gifts_6', name: 'Wayanad Signature Curry Set', price: 990, image: 'assets/images/hamper_packaging.webp', desc: 'Curry spice blends, traditional clay pot, and step-by-step recipe booklet', weight: '1 set', badge: 'New' }
     ]
   },
   {
@@ -1036,13 +1036,13 @@ const COLLECTIONS = [
     name: 'Wayanad Eco Luxury',
     tagline: 'Artisan crafts in sustainable bamboo, coconut shell, and vetiver',
     icon: '🎋',
-    image: 'assets/images/ecoliving_packaging.png',
+    image: 'assets/images/ecoliving_packaging.webp',
     description: 'Eco-friendly, handcrafted homeware and lifestyle goods made by local Wayanad artisans using natural fibers.',
     products: [
-      { id: 'p_eco_1', name: 'Handcrafted Bamboo Homeware', price: 680, image: 'assets/images/ecoliving_packaging.png', desc: 'Woven bamboo baskets, fruit bowls, and organizer trays crafted by hand', weight: 'Assorted', badge: 'Artisan' },
-      { id: 'p_eco_2', name: 'Coconut Shell Artisanware', price: 380, image: 'assets/images/ecoliving_packaging.png', desc: 'Polished coconut shell bowls and spoons, natural, organic, and reusable', weight: 'Set of 2', badge: '' },
-      { id: 'p_eco_3', name: 'Ramacham Vetiver Cooling Mat', price: 1200, image: 'assets/images/v4_vetiver.png', desc: 'Cooling mat woven from Ramacham (vetiver) roots, giving a natural earthy aroma', weight: '1 unit', badge: 'Bestseller' },
-      { id: 'p_eco_4', name: 'Bamboo Kitchen Essentials', price: 490, image: 'assets/images/ecoliving_packaging.png', desc: 'Spatulas, ladles, and tongs crafted from high-durability native bamboo', weight: 'Set of 4', badge: '' }
+      { id: 'p_eco_1', name: 'Handcrafted Bamboo Homeware', price: 680, image: 'assets/images/ecoliving_packaging.webp', desc: 'Woven bamboo baskets, fruit bowls, and organizer trays crafted by hand', weight: 'Assorted', badge: 'Artisan' },
+      { id: 'p_eco_2', name: 'Coconut Shell Artisanware', price: 380, image: 'assets/images/ecoliving_packaging.webp', desc: 'Polished coconut shell bowls and spoons, natural, organic, and reusable', weight: 'Set of 2', badge: '' },
+      { id: 'p_eco_3', name: 'Ramacham Vetiver Cooling Mat', price: 1200, image: 'assets/images/v4_vetiver.webp', desc: 'Cooling mat woven from Ramacham (vetiver) roots, giving a natural earthy aroma', weight: '1 unit', badge: 'Bestseller' },
+      { id: 'p_eco_4', name: 'Bamboo Kitchen Essentials', price: 490, image: 'assets/images/ecoliving_packaging.webp', desc: 'Spatulas, ladles, and tongs crafted from high-durability native bamboo', weight: 'Set of 4', badge: '' }
     ]
   },
   {
@@ -1050,15 +1050,15 @@ const COLLECTIONS = [
     name: 'Wayanad Fresh Harvest',
     tagline: 'Forest honey, virgin oils, and natural local produce',
     icon: '🍯',
-    image: 'assets/images/Wayanad Fresh Harvest/Wayanad Honey.png',
+    image: 'assets/images/Wayanad Fresh Harvest/Wayanad Honey.webp',
     description: 'Pure, minimally processed agricultural produce harvested fresh from forest ranges and partner farms.',
     products: [
-      { id: 'p_harvest_1', name: 'Wayanad Honey', price: 450, image: 'assets/images/Wayanad Fresh Harvest/Wayanad Honey.png', desc: 'Wild forest honey collected by tribal communities from deep Wayanad reserves', weight: '500g', badge: '100% Pure' },
-      { id: 'p_harvest_2', name: 'Cold Pressed Virgin Coconut Oil', price: 390, image: 'assets/images/Wayanad Fresh Harvest/Virgin Coconut Oil.png', desc: 'Raw, cold-pressed virgin coconut oil extracted from fresh coconuts without heat', weight: '500ml', badge: 'Organic' },
-      { id: 'p_harvest_3', name: 'Pure Wayanad Tamarind', price: 180, image: 'assets/images/Wayanad Fresh Harvest/Pure Wayanad Tamarind.png', desc: 'Traditionally cured and deseeded sour tamarind, essential for Kerala curries', weight: '250g', badge: '' },
-      { id: 'p_harvest_4', name: 'Wayanad Garcinia', price: 220, image: 'assets/images/Wayanad Fresh Harvest/Wayanad Garcinia.png', desc: 'Sun-dried Garcinia Cambogia (Kudampuli) smoked for an authentic wood-smoke aroma', weight: '200g', badge: '' },
-      { id: 'p_harvest_5', name: 'Wayanad Herbal Produce', price: 350, image: 'assets/images/Wayanad Fresh Harvest/Wayanad Herbal Produce.png', desc: 'Dried herbal roots and leaves for traditional Ayurvedic wellness teas', weight: '150g', badge: '' },
-      { id: 'p_harvest_6', name: 'Wayanad Avocado Concentrate', price: 680, image: 'assets/images/Wayanad Fresh Harvest/Avocado Concentrate.png', desc: 'Rich, smooth pulp concentrate made from premium butter avocados', weight: '500ml', badge: 'New' }
+      { id: 'p_harvest_1', name: 'Wayanad Honey', price: 450, image: 'assets/images/Wayanad Fresh Harvest/Wayanad Honey.webp', desc: 'Wild forest honey collected by tribal communities from deep Wayanad reserves', weight: '500g', badge: '100% Pure' },
+      { id: 'p_harvest_2', name: 'Cold Pressed Virgin Coconut Oil', price: 390, image: 'assets/images/Wayanad Fresh Harvest/Virgin Coconut Oil.webp', desc: 'Raw, cold-pressed virgin coconut oil extracted from fresh coconuts without heat', weight: '500ml', badge: 'Organic' },
+      { id: 'p_harvest_3', name: 'Pure Wayanad Tamarind', price: 180, image: 'assets/images/Wayanad Fresh Harvest/Pure Wayanad Tamarind.webp', desc: 'Traditionally cured and deseeded sour tamarind, essential for Kerala curries', weight: '250g', badge: '' },
+      { id: 'p_harvest_4', name: 'Wayanad Garcinia', price: 220, image: 'assets/images/Wayanad Fresh Harvest/Wayanad Garcinia.webp', desc: 'Sun-dried Garcinia Cambogia (Kudampuli) smoked for an authentic wood-smoke aroma', weight: '200g', badge: '' },
+      { id: 'p_harvest_5', name: 'Wayanad Herbal Produce', price: 350, image: 'assets/images/Wayanad Fresh Harvest/Wayanad Herbal Produce.webp', desc: 'Dried herbal roots and leaves for traditional Ayurvedic wellness teas', weight: '150g', badge: '' },
+      { id: 'p_harvest_6', name: 'Wayanad Avocado Concentrate', price: 680, image: 'assets/images/Wayanad Fresh Harvest/Avocado Concentrate.webp', desc: 'Rich, smooth pulp concentrate made from premium butter avocados', weight: '500ml', badge: 'New' }
     ]
   },
   {
@@ -1066,14 +1066,14 @@ const COLLECTIONS = [
     name: 'Wayanad Wellness',
     tagline: 'Superfood powders and natural wellness boosters',
     icon: '🥑',
-    image: 'assets/images/Wayanad wellness/Avocado Powder.png',
+    image: 'assets/images/Wayanad wellness/Avocado Powder.webp',
     description: 'Nutrient-rich, freeze-dried superfood powders processed with care to preserve complete bio-active compounds.',
     products: [
-      { id: 'p_well_1', name: 'Fine Coconut Powder', price: 190, image: 'assets/images/Wayanad wellness/Coconut Powder.png', desc: 'Finely ground unsweetened coconut flour, gluten-free and low-carb', weight: '250g', badge: '' },
-      { id: 'p_well_2', name: 'Jackfruit Superfood Powder', price: 480, image: 'assets/images/Wayanad wellness/Jackfruit Superfood Powder.png', desc: 'Freeze-dried green jackfruit powder, a highly nutritious glycemic regulator', weight: '200g', badge: 'Superfood' },
-      { id: 'p_well_3', name: 'Pure Moringa Leaf Powder', price: 290, image: 'assets/images/Wayanad wellness/Moringa Leaf Powder.png', desc: 'Vibrant green drumstick leaf powder, rich in iron, calcium, and vitamins', weight: '150g', badge: 'Organic' },
-      { id: 'p_well_4', name: 'Avocado Powder', price: 640, image: 'assets/images/Wayanad wellness/Avocado Powder.png', desc: 'Dehydrated premium avocado powder, rich in healthy fats and fiber', weight: '150g', badge: 'Premium' },
-      { id: 'p_well_5', name: 'Estate Herbal products powder', price: 380, image: 'assets/images/v4_exotic_fruits.png', desc: 'Wellness powder blend of wild turmeric, ginger, and native tulsi', weight: '200g', badge: '' }
+      { id: 'p_well_1', name: 'Fine Coconut Powder', price: 190, image: 'assets/images/Wayanad wellness/Coconut Powder.webp', desc: 'Finely ground unsweetened coconut flour, gluten-free and low-carb', weight: '250g', badge: '' },
+      { id: 'p_well_2', name: 'Jackfruit Superfood Powder', price: 480, image: 'assets/images/Wayanad wellness/Jackfruit Superfood Powder.webp', desc: 'Freeze-dried green jackfruit powder, a highly nutritious glycemic regulator', weight: '200g', badge: 'Superfood' },
+      { id: 'p_well_3', name: 'Pure Moringa Leaf Powder', price: 290, image: 'assets/images/Wayanad wellness/Moringa Leaf Powder.webp', desc: 'Vibrant green drumstick leaf powder, rich in iron, calcium, and vitamins', weight: '150g', badge: 'Organic' },
+      { id: 'p_well_4', name: 'Avocado Powder', price: 640, image: 'assets/images/Wayanad wellness/Avocado Powder.webp', desc: 'Dehydrated premium avocado powder, rich in healthy fats and fiber', weight: '150g', badge: 'Premium' },
+      { id: 'p_well_5', name: 'Estate Herbal products powder', price: 380, image: 'assets/images/v4_exotic_fruits.webp', desc: 'Wellness powder blend of wild turmeric, ginger, and native tulsi', weight: '200g', badge: '' }
     ]
   }
 ];
@@ -1099,7 +1099,7 @@ function renderHomepage() {
   grid.innerHTML = COLLECTIONS.map(col => `
     <div class="collection-card" onclick="openCollection('${col.id}')" role="button" tabindex="0" aria-label="Open ${t(col.name)}" onkeydown="if(event.key==='Enter')openCollection('${col.id}')">
       <div class="card-image-wrap">
-        <img src="${col.image}" alt="${t(col.name)}" loading="lazy" onerror="this.src='assets/images/v4_luxury_box.png'">
+        <img src="${col.image}" alt="${t(col.name)}" loading="lazy" onerror="this.src='assets/images/v4_luxury_box.webp'">
       </div>
       <div class="card-body">
         <h3 class="card-name">${t(col.name)}</h3>
@@ -1140,7 +1140,7 @@ function openCollection(id, isPopState = false) {
   grid.innerHTML = col.products.map(p => `
     <div class="product-card">
       <div class="product-image-wrap">
-        <img src="${p.image}" alt="${t(p.name)}" loading="lazy" onerror="this.src='assets/images/v4_luxury_box.png'">
+        <img src="${p.image}" alt="${t(p.name)}" loading="lazy" onerror="this.src='assets/images/v4_luxury_box.webp'">
         ${p.badge ? `<span class="product-badge">${t(p.badge)}</span>` : ''}
       </div>
       <div class="product-body">
@@ -1254,7 +1254,7 @@ function updateCartUI() {
 
   cartItemsContainer.innerHTML = cart.map(item => `
     <div class="cart-item">
-      <img src="${item.image}" alt="${t(item.name)}" onerror="this.src='assets/images/v4_luxury_box.png'">
+      <img src="${item.image}" alt="${t(item.name)}" onerror="this.src='assets/images/v4_luxury_box.webp'">
       <div class="cart-item-info">
         <span class="cart-item-name">${t(item.name)}</span>
         <span class="cart-item-price">${formatPrice(item.price * item.qty)}</span>
