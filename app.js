@@ -957,7 +957,7 @@ const COLLECTIONS = [
     id: 'spices',
     name: 'Wayanad Single-Origin Spices',
     tagline: 'Single-estate spices, hand-selected from mist-covered plantations',
-    icon: '🌿',
+    icon: '',
     image: 'assets/images/v4_spices.webp',
     description: 'Pure, potent, and unblended single-estate spices from the high-altitude spice belts of Wayanad.',
     products: [
@@ -974,7 +974,7 @@ const COLLECTIONS = [
     id: 'rice',
     name: 'Wayanad Heritage Rice',
     tagline: 'Traditional organic grains, cultivated in heritage paddy fields',
-    icon: '🌾',
+    icon: '',
     image: 'assets/images/Wayanad Heritage Rice/Gandhakasala Fragrant Rice.webp',
     description: 'Heirloom rice varieties grown in the unique wet-paddy ecosystems of Wayanad using traditional organic practices.',
     products: [
@@ -988,7 +988,7 @@ const COLLECTIONS = [
     id: 'coffee_tea',
     name: 'Wayanad Estate Coffee & Tea',
     tagline: 'Shade-grown coffee and high-grown tea from the misty heights',
-    icon: '☕',
+    icon: '',
     image: 'assets/images/WAYANAD_ESTATE_COFFEE/Wayanad Arabica Estate Reserve.webp',
     description: 'Exceptional shade-grown coffees and premium orthodox teas, cultivated in harmony with nature at high altitudes.',
     products: [
@@ -1003,7 +1003,7 @@ const COLLECTIONS = [
     id: 'snacks',
     name: 'Wayanad Artisan Snacks',
     tagline: 'Beloved local snacks, vacuum-fried and elevated',
-    icon: '🍌',
+    icon: '',
     image: 'assets/images/Wayanad Artisan Snacks/Vacuum Fried Nendran Banana Chips.webp',
     description: 'Traditional snacks prepared using heirloom recipes and premium ingredients, vacuum-fried to retain crispness and nutrition with less oil.',
     products: [
@@ -1019,7 +1019,7 @@ const COLLECTIONS = [
     id: 'gifts',
     name: 'Wayanad Gift Collections',
     tagline: 'Curated gift sets packaged with luxury gold silk ribbon',
-    icon: '🎁',
+    icon: '',
     image: 'assets/images/v4_hamper.webp',
     description: 'Exquisitely packaged luxury boxes and baskets, bringing the finest tastes and crafts of Wayanad to your loved ones.',
     products: [
@@ -1035,7 +1035,7 @@ const COLLECTIONS = [
     id: 'eco_luxury',
     name: 'Wayanad Eco Luxury',
     tagline: 'Artisan crafts in sustainable bamboo, coconut shell, and vetiver',
-    icon: '🎋',
+    icon: '',
     image: 'assets/images/ecoliving_packaging.webp',
     description: 'Eco-friendly, handcrafted homeware and lifestyle goods made by local Wayanad artisans using natural fibers.',
     products: [
@@ -1049,7 +1049,7 @@ const COLLECTIONS = [
     id: 'harvest',
     name: 'Wayanad Fresh Harvest',
     tagline: 'Forest honey, virgin oils, and natural local produce',
-    icon: '🍯',
+    icon: '',
     image: 'assets/images/Wayanad Fresh Harvest/Wayanad Honey.webp',
     description: 'Pure, minimally processed agricultural produce harvested fresh from forest ranges and partner farms.',
     products: [
@@ -1065,7 +1065,7 @@ const COLLECTIONS = [
     id: 'wellness',
     name: 'Wayanad Wellness',
     tagline: 'Superfood powders and natural wellness boosters',
-    icon: '🥑',
+    icon: '',
     image: 'assets/images/Wayanad wellness/Avocado Powder.webp',
     description: 'Nutrient-rich, freeze-dried superfood powders processed with care to preserve complete bio-active compounds.',
     products: [
@@ -1245,7 +1245,7 @@ function updateCartUI() {
   if (cart.length === 0) {
     cartItemsContainer.innerHTML = `
       <div class="cart-empty">
-        <div class="cart-empty-icon">🛍️</div>
+        <div class="cart-empty-icon"></div>
         <p>${t('cart_empty')}</p>
         <span>${t("Discover Wayanad's finest produce")}</span>
       </div>`;
@@ -1297,7 +1297,7 @@ function goToCheckoutStep2() {
   // Update step indicators
   document.getElementById('step-dot-1').classList.remove('active');
   document.getElementById('step-dot-2').classList.add('active');
-  document.getElementById('cart-title').textContent = '📦 ' + t('checkout_title');
+  document.getElementById('cart-title').textContent = t('checkout_title');
 }
 window.goToCheckoutStep2 = goToCheckoutStep2;
 
@@ -1307,7 +1307,7 @@ function goToCartStep1() {
   // Reset step indicators
   document.getElementById('step-dot-1').classList.add('active');
   document.getElementById('step-dot-2').classList.remove('active');
-  document.getElementById('cart-title').textContent = '🛍 ' + t('cart_title');
+  document.getElementById('cart-title').textContent = t('cart_title');
 }
 window.goToCartStep1 = goToCartStep1;
 
